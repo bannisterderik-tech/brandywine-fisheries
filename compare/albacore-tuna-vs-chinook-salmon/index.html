@@ -11,157 +11,269 @@
 <meta name="theme-color" content="#002647">
 <link rel="icon" href="/brandywine-fisheries/assets/logo.png">
 <style>
+/* ============================================================
+   Brandywine Fisheries — editorial system
+   Navy #002647 / gold #f1c900, taken from their live stylesheet.
+   Everything inlined: zero external requests, zero webfonts.
+   ============================================================ */
 :root{
  --navy:#002647;--gold:#f1c900;
- --ink:#0e1720;--body:#37424f;--muted:#6b7785;
- --paper:#fbfaf7;--card:#fff;--line:#e6e2da;--sand:#f4f1ea;
- --shadow:0 1px 2px rgba(14,23,32,.05),0 8px 28px rgba(14,23,32,.06);
- --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
- --sans:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+ --ink:#0b1219;--body:#3a4652;--muted:#6f7b88;--faint:#96a1ad;
+ --paper:#fcfbf8;--card:#fff;--line:#e8e4db;--sand:#f5f2ea;--deep:#061019;
+ --shadow-s:0 1px 2px rgba(11,18,25,.04),0 2px 8px rgba(11,18,25,.04);
+ --shadow-m:0 2px 4px rgba(11,18,25,.04),0 12px 32px rgba(11,18,25,.08);
+ --shadow-l:0 4px 8px rgba(11,18,25,.05),0 24px 64px rgba(11,18,25,.12);
+ --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+ --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+ --mono:'SF Mono',SFMono-Regular,ui-monospace,'Roboto Mono',Menlo,monospace;
+ --ease:cubic-bezier(.2,.7,.3,1);
+ --gut:clamp(20px,4.5vw,44px);
 }
+@media (prefers-color-scheme:dark){:root{
+ --ink:#f2f5f8;--body:#c2ccd6;--muted:#8b98a6;--faint:#6d7a88;
+ --paper:#0a1017;--card:#111a23;--line:#1f2b36;--sand:#0e161e;
+ --shadow-s:0 1px 2px rgba(0,0,0,.4);--shadow-m:0 12px 32px rgba(0,0,0,.5);--shadow-l:0 24px 64px rgba(0,0,0,.6);
+}}
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--paper);color:var(--body);font:17px/1.68 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
-a{color:inherit}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--body);font:400 17px/1.7 var(--sans);
+ -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+ font-feature-settings:'kern' 1,'liga' 1;overflow-x:hidden}
+a{color:inherit;text-underline-offset:.18em}
 img{max-width:100%;display:block;height:auto}
-h1,h2,h3,h4{font-family:var(--serif);color:var(--ink);font-weight:600;letter-spacing:-.015em;line-height:1.15}
-.wrap{max-width:1140px;margin:0 auto;padding:0 clamp(18px,4vw,36px)}
-.narrow{max-width:760px}
+::selection{background:var(--gold);color:var(--navy)}
+:focus-visible{outline:2.5px solid var(--gold);outline-offset:3px;border-radius:3px}
 
-/* header */
-.top{background:var(--navy);color:#fff;position:sticky;top:0;z-index:60;box-shadow:0 1px 0 rgba(255,255,255,.08)}
-.top .wrap{display:flex;align-items:center;gap:20px;min-height:72px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:#fff;margin-right:auto}
-.brand img{height:38px;width:38px;filter:brightness(0) invert(1)}
-.brand b{font-family:var(--serif);font-size:1.24rem;font-weight:600;letter-spacing:-.02em;display:block;line-height:1.1}
-.brand span{display:block;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-top:2px}
-.top nav{display:flex;gap:20px;flex-wrap:wrap}
-.top nav a{color:rgba(255,255,255,.88);text-decoration:none;font-size:.92rem;font-weight:500;padding:4px 0;border-bottom:2px solid transparent;transition:.15s}
-.top nav a:hover{color:#fff;border-bottom-color:var(--gold)}
-.callbtn{background:var(--gold);color:var(--navy);padding:.62em 1.15em;border-radius:4px;text-decoration:none;font-weight:700;font-size:.9rem;white-space:nowrap;transition:.15s}
-.callbtn:hover{background:#fff}
-
-/* hero */
-.hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
-.hero .bg{position:absolute;inset:0;object-fit:cover;width:100%;height:100%;opacity:.5}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,#002647f2 0%,#002647d9 45%,#00264770 100%)}
-.hero .wrap{position:relative;z-index:2;padding:clamp(52px,8vw,104px) clamp(18px,4vw,36px)}
-.hero.tall .wrap{padding:clamp(78px,12vw,152px) clamp(18px,4vw,36px)}
-.eyebrow{font-family:var(--sans);font-size:.72rem;letter-spacing:.17em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:16px}
-.hero h1{color:#fff;font-size:clamp(2rem,4.6vw,3.5rem);max-width:20ch;text-shadow:0 2px 30px rgba(0,0,0,.3)}
-.hero .sub{margin-top:18px;font-size:clamp(1.02rem,1.5vw,1.2rem);color:rgba(255,255,255,.92);max-width:56ch}
-.hero .row{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
-.btn{background:var(--gold);color:var(--navy);padding:.82em 1.5em;border-radius:4px;text-decoration:none;font-weight:700;display:inline-block;transition:.15s}
-.btn:hover{background:#fff;transform:translateY(-1px)}
-.btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.45)}
-.btn.ghost:hover{background:rgba(255,255,255,.12);color:#fff}
-.badges{display:flex;gap:30px;flex-wrap:wrap;margin-top:34px;padding-top:24px;border-top:1px solid rgba(255,255,255,.2)}
-.badges div{font-size:.82rem;color:rgba(255,255,255,.72)}
-.badges b{display:block;color:#fff;font-size:1.12rem;font-weight:700;font-family:var(--serif);margin-bottom:1px}
-
-/* breadcrumbs */
-.crumbs{font-size:.82rem;color:var(--muted);padding:14px 0 0}
-.crumbs a{color:var(--muted);text-decoration:none}
-.crumbs a:hover{color:var(--navy);text-decoration:underline}
-
-/* answer block — the thing AI engines quote */
-.answer{background:var(--card);border-left:3px solid var(--gold);padding:22px 26px;margin:28px 0 0;border-radius:0 6px 6px 0;box-shadow:var(--shadow);font-size:1.04rem}
-.answer b{color:var(--navy)}
-
-section{padding:clamp(38px,5.5vw,66px) 0}
-section.band{background:var(--sand)}
-section.dark{background:var(--navy);color:rgba(255,255,255,.85)}
-section.dark h2,section.dark h3{color:#fff}
-h2{font-size:clamp(1.4rem,2.7vw,2rem);margin-bottom:8px}
-h3{font-size:1.08rem;margin-bottom:5px}
-.lede{color:var(--muted);max-width:62ch;margin-bottom:26px}
-p{max-width:70ch;margin-bottom:14px}
+h1,h2,h3,h4{font-family:var(--serif);color:var(--ink);font-weight:600;line-height:1.12;letter-spacing:-.02em}
+h1{font-size:clamp(2.35rem,6vw,4.4rem);letter-spacing:-.033em}
+h2{font-size:clamp(1.55rem,3.1vw,2.35rem);letter-spacing:-.024em}
+h3{font-size:1.1rem;letter-spacing:-.012em}
+p{max-width:68ch;margin-bottom:1.05em}
+strong,b{font-weight:650;color:var(--ink)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 var(--gut)}
+.narrow{max-width:min(100%,730px)}
 .muted{color:var(--muted)}
+.lede{font-size:clamp(1.04rem,1.5vw,1.19rem);color:var(--muted);max-width:60ch;margin-bottom:2rem;line-height:1.6}
 
-/* cards */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(238px,1fr));gap:14px}
-.grid a{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:17px 19px;text-decoration:none;display:block;position:relative;overflow:hidden;transition:.18s}
-.grid a::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gold);transform:scaleY(0);transform-origin:top;transition:transform .2s}
-.grid a:hover{border-color:var(--navy);transform:translateY(-2px);box-shadow:var(--shadow)}
+/* ---------- eyebrow / rules ---------- */
+.eyebrow{font:700 .7rem/1 var(--sans);letter-spacing:.19em;text-transform:uppercase;color:var(--gold);
+ margin-bottom:1.15rem;display:flex;align-items:center;gap:.7em}
+.eyebrow::after{content:"";height:1px;flex:1;max-width:64px;background:currentColor;opacity:.42}
+
+/* ---------- header ---------- */
+.top{position:sticky;top:0;z-index:80;background:#002647;color:#fff;
+ transition:box-shadow .3s var(--ease)}
+.top.scrolled{box-shadow:0 6px 28px rgba(0,0,0,.28)}
+.top .wrap{display:flex;align-items:center;gap:clamp(14px,2.4vw,30px);min-height:74px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;margin-right:auto}
+.brand img{height:36px;width:36px;filter:brightness(0) invert(1);transition:transform .4s var(--ease)}
+.brand:hover img{transform:rotate(-9deg) scale(1.06)}
+.brand .bn{font-family:var(--serif);font-size:1.2rem;font-weight:600;letter-spacing:-.022em;display:block;line-height:1.05}
+.brand .bs{display:block;font:700 .62rem/1 var(--sans);letter-spacing:.19em;text-transform:uppercase;color:var(--gold);margin-top:5px}
+.top nav{display:flex;gap:clamp(13px,1.9vw,24px);flex-wrap:wrap}
+.top nav a{color:rgba(255,255,255,.86);text-decoration:none;font-size:.9rem;font-weight:500;
+ padding:5px 0;position:relative;transition:color .2s}
+.top nav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--gold);
+ transform:scaleX(0);transform-origin:left;transition:transform .28s var(--ease)}
+.top nav a:hover{color:#fff}
+.top nav a:hover::after{transform:scaleX(1)}
+.callbtn{background:var(--gold);color:#002647;padding:.66em 1.2em;border-radius:3px;
+ text-decoration:none;font-weight:700;font-size:.88rem;white-space:nowrap;
+ transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
+.callbtn:hover{transform:translateY(-1.5px);box-shadow:0 8px 20px rgba(241,201,0,.32)}
+
+/* ---------- hero ----------
+   The photograph is the point. A heavy diagonal wash used to bury it; this is a
+   bottom-weighted scrim that keeps the type legible and lets the image breathe. */
+.hero{position:relative;background:var(--deep);color:#fff;isolation:isolate;overflow:hidden}
+.hero .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;
+ transform:scale(1.045);animation:heroIn 1.5s var(--ease) both}
+@keyframes heroIn{from{transform:scale(1.13);opacity:0}to{transform:scale(1.045);opacity:1}}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;
+ background:linear-gradient(to top,#002647f5 0%,#002647cc 26%,#00264762 56%,#0026472e 100%)}
+/* film grain, drawn not downloaded */
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;opacity:.16;pointer-events:none;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E")}
+.hero .wrap{position:relative;padding:clamp(64px,10vw,120px) var(--gut) clamp(46px,6vw,74px)}
+.hero.tall .wrap{padding:clamp(112px,17vw,215px) var(--gut) clamp(64px,8vw,104px)}
+.hero h1{color:#fff;max-width:17ch;text-wrap:balance;
+ text-shadow:0 1px 40px rgba(0,0,0,.45),0 1px 3px rgba(0,0,0,.3)}
+.hero .sub{margin-top:1.35rem;font-size:clamp(1.03rem,1.55vw,1.24rem);color:rgba(255,255,255,.9);
+ max-width:52ch;line-height:1.58;text-shadow:0 1px 20px rgba(0,0,0,.5)}
+.hero .row{display:flex;gap:13px;flex-wrap:wrap;margin-top:2.1rem}
+.badges{display:flex;gap:clamp(20px,3.4vw,46px);flex-wrap:wrap;margin-top:2.6rem;padding-top:1.7rem;
+ border-top:1px solid rgba(255,255,255,.2)}
+.badges div{font-size:.79rem;color:rgba(255,255,255,.68);letter-spacing:.01em}
+.badges b{display:block;color:#fff;font:600 1.32rem/1.1 var(--serif);margin-bottom:4px;letter-spacing:-.02em}
+
+.btn{background:var(--gold);color:#002647;padding:.86em 1.65em;border-radius:3px;
+ text-decoration:none;font-weight:700;font-size:.95rem;display:inline-block;
+ transition:transform .2s var(--ease),box-shadow .2s var(--ease),background .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(241,201,0,.34)}
+.btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.42);box-shadow:none}
+.btn.ghost:hover{background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.75);box-shadow:none}
+
+/* ---------- breadcrumbs ---------- */
+.crumbs{font-size:.79rem;color:var(--muted);padding:16px 0 0;letter-spacing:.01em}
+.crumbs a{color:var(--muted);text-decoration:none;transition:color .18s}
+.crumbs a:hover{color:var(--ink);text-decoration:underline}
+.crumbs span[aria-hidden]{opacity:.4;margin:0 .18em}
+
+/* ---------- answer block ---------- */
+.answer{position:relative;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+ padding:1.5rem 1.75rem;margin:2.2rem 0 0;border-radius:0 8px 8px 0;box-shadow:var(--shadow-m);
+ font-size:1.05rem;line-height:1.66;max-width:74ch}
+.answer b{color:var(--ink);font-weight:650}
+
+/* ---------- sections ---------- */
+section{padding:clamp(46px,6.5vw,88px) 0;position:relative}
+section.band{background:var(--sand)}
+section.band+section.band{padding-top:0}
+section+section:not(.band):not(.cta)::before{content:"";position:absolute;top:0;left:var(--gut);right:var(--gut);height:1px;background:var(--line)}
+
+/* ---------- reveal on scroll ---------- */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .75s var(--ease),transform .75s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}
+ .rv{opacity:1;transform:none}
+ html{scroll-behavior:auto}
+}
+
+/* ---------- link cards ---------- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(244px,1fr));gap:14px}
+.grid a{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:1.05rem 1.2rem;
+ text-decoration:none;display:block;position:relative;overflow:hidden;
+ transition:transform .24s var(--ease),box-shadow .24s var(--ease),border-color .24s}
+.grid a::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gold);
+ transform:scaleY(0);transform-origin:top;transition:transform .28s var(--ease)}
+.grid a:hover{transform:translateY(-3px);box-shadow:var(--shadow-m);border-color:transparent}
 .grid a:hover::before{transform:scaleY(1)}
-.grid b{display:block;color:var(--ink);font-family:var(--serif);font-size:1.04rem;margin-bottom:3px}
-.grid span{display:block;color:var(--muted);font-size:.87rem}
-.grid .px{color:var(--navy);font-weight:700;font-size:.9rem;margin-top:6px;display:block}
+.grid b{display:block;font-family:var(--serif);font-size:1.06rem;color:var(--ink);margin-bottom:4px;letter-spacing:-.014em}
+.grid span{display:block;color:var(--muted);font-size:.865rem;line-height:1.5}
+.grid .px{color:var(--ink);font:700 .88rem/1 var(--mono);margin-top:.62rem;display:block;letter-spacing:-.02em}
 
-/* picture cards */
-.pcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:18px}
-.pcard{background:var(--card);border:1px solid var(--line);border-radius:9px;overflow:hidden;text-decoration:none;display:block;transition:.18s}
-.pcard:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:var(--navy)}
-.pcard img{aspect-ratio:3/2;object-fit:cover;width:100%}
-.pcard .bd{padding:16px 18px}
-.pcard b{display:block;font-family:var(--serif);font-size:1.1rem;color:var(--ink);margin-bottom:4px}
-.pcard p{font-size:.89rem;color:var(--muted);margin:0}
-.pcard .px{display:inline-block;margin-top:9px;color:var(--navy);font-weight:700;font-size:.92rem}
+/* ---------- picture cards ---------- */
+.pcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(282px,1fr));gap:20px}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:11px;overflow:hidden;
+ text-decoration:none;display:block;
+ transition:transform .3s var(--ease),box-shadow .3s var(--ease),border-color .3s}
+.pcard .ph{position:relative;overflow:hidden;aspect-ratio:3/2;background:var(--sand)}
+.pcard img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease),filter .5s}
+.pcard:hover{transform:translateY(-4px);box-shadow:var(--shadow-l);border-color:transparent}
+.pcard:hover img{transform:scale(1.062)}
+.pcard .bd{padding:1.05rem 1.25rem 1.2rem}
+.pcard b{display:block;font-family:var(--serif);font-size:1.16rem;color:var(--ink);margin-bottom:5px;letter-spacing:-.018em}
+.pcard p{font-size:.885rem;color:var(--muted);margin:0;line-height:1.52;max-width:none}
+.pcard .px{display:inline-block;margin-top:.72rem;color:var(--ink);font:700 .92rem/1 var(--mono);letter-spacing:-.02em}
 
-/* fact strip */
-.facts{display:flex;gap:14px;flex-wrap:wrap;margin:22px 0}
-.facts div{background:var(--card);border:1px solid var(--line);border-radius:7px;padding:13px 17px;font-size:.83rem;color:var(--muted);min-width:132px}
-.facts b{display:block;color:var(--navy);font-size:1.04rem;font-family:var(--serif);font-weight:700;margin-bottom:1px}
+/* ---------- fact strip ---------- */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(146px,1fr));gap:1px;margin:1.9rem 0;
+ background:var(--line);border:1px solid var(--line);border-radius:9px;overflow:hidden}
+.facts div{background:var(--card);padding:1.05rem 1.15rem;font-size:.79rem;color:var(--muted);letter-spacing:.012em}
+.facts b{display:block;color:var(--ink);font:600 1.16rem/1.2 var(--serif);margin-bottom:5px;letter-spacing:-.02em}
 
-/* spec table */
-table{border-collapse:collapse;width:100%;margin:20px 0;font-size:.94rem;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
-th,td{text-align:left;padding:12px 15px;border-bottom:1px solid var(--line);vertical-align:top}
-th{background:var(--sand);font-family:var(--sans);font-weight:700;color:var(--navy);font-size:.8rem;letter-spacing:.05em;text-transform:uppercase}
+/* ---------- tables ---------- */
+.tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.6rem 0;
+ border:1px solid var(--line);border-radius:9px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.925rem;min-width:440px}
+th,td{text-align:left;padding:.82rem 1.05rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--sand);font:700 .69rem/1.3 var(--sans);color:var(--ink);
+ letter-spacing:.13em;text-transform:uppercase;white-space:nowrap}
 tr:last-child td{border-bottom:0}
-td:first-child{font-weight:600;color:var(--ink);width:26%}
-.tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+tbody tr{transition:background .16s}
+tbody tr:hover{background:var(--sand)}
+td:first-child{font-weight:600;color:var(--ink);width:25%}
+table a{color:var(--ink);font-weight:600}
 
-/* steps */
-ol.steps{margin:18px 0 18px 0;padding-left:0;list-style:none;counter-reset:s}
-ol.steps li{counter-increment:s;position:relative;padding-left:44px;margin-bottom:16px;max-width:70ch}
-ol.steps li::before{content:counter(s);position:absolute;left:0;top:1px;width:29px;height:29px;background:var(--navy);color:var(--gold);border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:.85rem;font-family:var(--sans)}
-ol.steps b{display:block;color:var(--ink);font-family:var(--serif);font-size:1.04rem}
+/* ---------- numbered steps ---------- */
+ol.steps{margin:1.7rem 0;padding:0;list-style:none;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding-left:3.35rem;margin-bottom:1.5rem;max-width:68ch}
+ol.steps li::before{content:counter(s,decimal-leading-zero);position:absolute;left:0;top:-1px;
+ font:700 .78rem/1 var(--mono);color:var(--gold);background:#002647;
+ width:2.3rem;height:2.3rem;border-radius:50%;display:grid;place-items:center;letter-spacing:-.03em}
+ol.steps b{display:block;font-family:var(--serif);font-size:1.08rem;color:var(--ink);margin-bottom:3px;letter-spacing:-.014em}
 
-/* faq */
-details{background:var(--card);border:1px solid var(--line);border-radius:7px;margin-bottom:9px;overflow:hidden}
-summary{padding:15px 19px;cursor:pointer;font-weight:600;color:var(--ink);list-style:none;position:relative;padding-right:46px}
+/* ---------- faq ---------- */
+details{background:var(--card);border:1px solid var(--line);border-radius:8px;margin-bottom:9px;
+ overflow:hidden;transition:border-color .2s,box-shadow .2s}
+details[open]{box-shadow:var(--shadow-s);border-color:var(--line)}
+summary{padding:1.05rem 3.1rem 1.05rem 1.3rem;cursor:pointer;font-weight:600;color:var(--ink);
+ list-style:none;position:relative;transition:color .18s;line-height:1.45}
 summary::-webkit-details-marker{display:none}
-summary::after{content:"+";position:absolute;right:19px;top:13px;font-size:1.3rem;color:var(--gold);font-weight:400}
-details[open] summary::after{content:"–"}
-details p{padding:0 19px 16px;margin:0;color:var(--body)}
+summary::after{content:"";position:absolute;right:1.3rem;top:1.45rem;width:11px;height:11px;
+ border-right:2px solid var(--gold);border-bottom:2px solid var(--gold);
+ transform:rotate(45deg);transition:transform .28s var(--ease)}
+details[open] summary::after{transform:rotate(-135deg);top:1.6rem}
+summary:hover{color:var(--gold)}
+details p{padding:0 1.3rem 1.15rem;margin:0;color:var(--body);max-width:70ch}
 
-/* pull quote */
-.pull{border-left:3px solid var(--gold);padding:6px 0 6px 22px;margin:26px 0;font-family:var(--serif);font-size:1.16rem;color:var(--ink);font-style:italic;max-width:62ch}
-.pull cite{display:block;font-family:var(--sans);font-size:.8rem;font-style:normal;color:var(--muted);margin-top:9px;letter-spacing:.03em}
+/* ---------- pull quote ---------- */
+.pull{position:relative;padding:.3rem 0 .3rem 1.6rem;margin:2rem 0;
+ border-left:3px solid var(--gold);font-family:var(--serif);font-size:clamp(1.12rem,1.9vw,1.35rem);
+ color:var(--ink);font-style:italic;max-width:58ch;line-height:1.45;letter-spacing:-.012em}
+.pull cite{display:block;font:500 .78rem/1.4 var(--sans);font-style:normal;color:var(--muted);
+ margin-top:.85rem;letter-spacing:.06em;text-transform:uppercase}
 
-/* note / caveat */
-.note{background:#fffdf2;border:1px solid #efe4b8;border-left:3px solid var(--gold);border-radius:0 6px 6px 0;padding:15px 19px;font-size:.92rem;color:#5c5433;margin:20px 0;max-width:74ch}
-.note b{color:#3d3720}
+/* ---------- note ---------- */
+.note{background:color-mix(in srgb,var(--gold) 8%,var(--card));border:1px solid color-mix(in srgb,var(--gold) 30%,var(--line));
+ border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:1.05rem 1.3rem;
+ font-size:.915rem;color:var(--body);margin:1.6rem 0;max-width:74ch;line-height:1.62}
+.note b{color:var(--ink)}
 
-/* split */
-.split{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.split>div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:20px 22px}
-.split h3{color:var(--navy)}
+/* ---------- split ---------- */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.split>div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1.4rem 1.55rem;
+ transition:box-shadow .25s var(--ease)}
+.split>div:hover{box-shadow:var(--shadow-m)}
+.split h3{color:var(--ink);margin-bottom:.5rem}
+.split p{font-size:.945rem;margin-bottom:.6rem}
 @media(max-width:720px){.split{grid-template-columns:1fr}}
 
-/* cta */
-.cta{background:var(--navy);color:#fff;text-align:center}
+/* ---------- cta ---------- */
+.cta{background:#002647;color:#fff;text-align:center;overflow:hidden;position:relative}
+.cta::before{content:"";position:absolute;inset:0;opacity:.1;
+ background:radial-gradient(ellipse at 50% 0%,var(--gold),transparent 62%)}
+.cta .wrap{position:relative}
 .cta h2{color:#fff}
-.cta p{margin:0 auto 22px;color:rgba(255,255,255,.82);max-width:56ch}
-.cta .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.cta p{margin:.9rem auto 1.7rem;color:rgba(255,255,255,.8);max-width:54ch}
+.cta .row{display:flex;gap:13px;justify-content:center;flex-wrap:wrap}
 
-/* footer */
-footer{background:#081521;color:rgba(255,255,255,.62);font-size:.88rem;padding:52px 0 30px}
-footer h4{color:#fff;font-family:var(--sans);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:13px;font-weight:700}
-footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(178px,1fr));gap:32px;margin-bottom:34px}
-footer a{color:rgba(255,255,255,.62);text-decoration:none;display:block;padding:3px 0}
-footer a:hover{color:var(--gold)}
-footer .base{border-top:1px solid rgba(255,255,255,.12);padding-top:22px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font-size:.82rem}
+/* ---------- footer ---------- */
+footer{background:var(--deep);color:rgba(255,255,255,.58);font-size:.88rem;padding:clamp(46px,6vw,72px) 0 2rem}
+footer h4{color:#fff;font:700 .68rem/1 var(--sans);letter-spacing:.17em;text-transform:uppercase;margin-bottom:1rem}
+footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(172px,1fr));gap:2.2rem;margin-bottom:2.4rem}
+footer a{color:rgba(255,255,255,.58);text-decoration:none;display:block;padding:4px 0;transition:color .18s,transform .18s}
+footer a:hover{color:var(--gold);transform:translateX(3px)}
+footer p{color:rgba(255,255,255,.58)}
+footer .base{border-top:1px solid rgba(255,255,255,.11);padding-top:1.5rem;display:flex;
+ justify-content:space-between;gap:1.2rem;flex-wrap:wrap;font-size:.82rem}
 footer .base b{color:#fff}
-.demobar{position:fixed;bottom:0;left:0;right:0;background:#0b1a2b;color:#fff;z-index:99;padding:11px 18px;font-size:.85rem;text-align:center;border-top:2px solid var(--gold)}
-@media(max-width:640px){.top nav{display:none}.badges{gap:20px}}
+.demobar{position:fixed;bottom:0;left:0;right:0;background:rgba(6,16,25,.96);backdrop-filter:blur(12px);
+ color:#fff;z-index:99;padding:.72rem 1.1rem;font-size:.83rem;text-align:center;border-top:2px solid var(--gold)}
+body:has(.demobar){padding-bottom:52px}
+
+@media(max-width:680px){
+ .top .wrap{min-height:64px;gap:10px}
+ .top nav{display:none}
+ .brand img{height:32px;width:32px}
+ .facts{grid-template-columns:repeat(auto-fit,minmax(128px,1fr))}
+ .hero.tall .wrap{padding-top:clamp(78px,20vw,120px)}
+}
+@media print{
+ .top,.cta,footer,.demobar,.hero .bg{display:none}
+ body{background:#fff;color:#000;font-size:11pt}
+ .hero{background:#fff;color:#000}.hero h1{color:#000;text-shadow:none}
+ a{text-decoration:underline}
+ details{border:1px solid #ccc}details p{display:block}
+}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"SeafoodStore","@id":"https://bannisterderik-tech.github.io/brandywine-fisheries/#business","name":"Brandywine Fisheries","legalName":"Brandywine Fisheries, LLC","description":"Oregon coast seafood from a local fishing family","url":"https://bannisterderik-tech.github.io/brandywine-fisheries/","telephone":"(541) 505-9686","image":"https://bannisterderik-tech.github.io/brandywine-fisheries/assets/img/hero-harbor.jpg","logo":"https://bannisterderik-tech.github.io/brandywine-fisheries/assets/logo.png","slogan":"Oregon coast seafood from a local fishing family","address":{"@type":"PostalAddress","streetAddress":"4731 Main St #1","addressLocality":"Springfield","addressRegion":"OR","postalCode":"97478","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":44.0462,"longitude":-122.9536},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"10:00","closes":"18:00"}],"areaServed":[{"@type":"City","name":"Springfield"},{"@type":"City","name":"Eugene"},{"@type":"City","name":"Eugene"},{"@type":"City","name":"Corvallis"},{"@type":"City","name":"Bend"},{"@type":"City","name":"Portland"}],"makesOffer":[{"@type":"Offer","itemOffered":{"@type":"Product","name":"Chinook Salmon"},"priceCurrency":"USD","price":"29.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Coho Salmon"},"priceCurrency":"USD","price":"18.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Pacific Halibut"},"priceCurrency":"USD","price":"38.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Black Cod (Sablefish)"},"priceCurrency":"USD","price":"18.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Lingcod"},"priceCurrency":"USD","price":"18.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Pacific Rockfish"},"priceCurrency":"USD","price":"13.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Ahi (Yellowfin) Tuna"},"priceCurrency":"USD","price":"8.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Swordfish"},"priceCurrency":"USD","price":"18.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Mahi Mahi"},"priceCurrency":"USD","price":"9.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Bay Shrimp"},"priceCurrency":"USD","price":"9.00"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Black Mussels"},"priceCurrency":"USD","price":"6.95"},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Steamer Clams"},"priceCurrency":"USD","price":"8.95"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bannisterderik-tech.github.io/brandywine-fisheries/"},{"@type":"ListItem","position":2,"name":"Compare","item":"https://bannisterderik-tech.github.io/brandywine-fisheries/compare/"},{"@type":"ListItem","position":3,"name":"Albacore Tuna vs Chinook Salmon"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which is cheaper, albacore tuna or Chinook salmon?","acceptedAnswer":{"@type":"Answer","text":"Albacore Tuna is Canned from $12.00; smoked loin $40.00 / lb, $20.00 / half lb; Chinook Salmon is $29.95 / lb."}},{"@type":"Question","name":"Which is easier to cook?","acceptedAnswer":{"@type":"Answer","text":"They're comparable. Albacore Tuna cooks to Sear the outside and leave the middle rare — 115–120°F in the center, Chinook Salmon to 125°F for medium-rare in the center."}},{"@type":"Question","name":"Can I substitute one for the other?","acceptedAnswer":{"@type":"Answer","text":"Yes — they are listed as substitutes for each other and behave similarly in the pan."}},{"@type":"Question","name":"Which is the Oregon fish?","acceptedAnswer":{"@type":"Answer","text":"Both. Each is landed by the boat out of Charleston."}},{"@type":"Question","name":"Which should I buy?","acceptedAnswer":{"@type":"Answer","text":"The two Oregon troll fisheries, both handled the same way on the boat. Salmon is richer, more colorful and more expensive; albacore is milder, meatier, and the fish Brandywine cans. Albacore wants to be seared rare; salmon wants to be cooked medium."}}]}</script>
 </head><body>
 <header class="top"><div class="wrap">
-<a class="brand" href="/brandywine-fisheries/"><img src="/brandywine-fisheries/assets/logo.png" alt="" width="38" height="38"><span style="display:block"><b>Brandywine Fisheries</b><span>Oregon Coast Seafood</span></span></a>
+<a class="brand" href="/brandywine-fisheries/"><img src="/brandywine-fisheries/assets/logo.png" alt="" width="36" height="36"><span><span class="bn">Brandywine Fisheries</span><span class="bs">Oregon Coast Seafood</span></span></a>
 <nav><a href="/brandywine-fisheries/fish/">Fish</a><a href="/brandywine-fisheries/shop/">Shop</a><a href="/brandywine-fisheries/where-to-buy/">Where to Buy</a><a href="/brandywine-fisheries/guides/">Guides</a><a href="/brandywine-fisheries/season/">What's in Season</a><a href="/brandywine-fisheries/about/">About</a></nav>
 <a class="callbtn" href="tel:+15415059686">(541) 505-9686</a></div></header>
 <div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="/brandywine-fisheries/">Home</a> <span aria-hidden="true">/</span> <a href="/brandywine-fisheries/compare/">Compare</a> <span aria-hidden="true">/</span> <span>Albacore Tuna vs Chinook Salmon</span></nav></div>
@@ -211,4 +323,15 @@ footer .base b{color:#fff}
 </div>
 <div class="base"><div><b>Brandywine Fisheries</b> — Oregon coast seafood from a local fishing family</div><div>Home port: Charleston, Oregon</div></div>
 <p style="color:rgba(255,255,255,.42);font-size:.78rem;margin-top:14px;max-width:78ch">Photography on this site is regional Oregon scenery and food styling. It is not photographs of the Brandywine boat, crew, store or catch. Prices and seasons are as published by Brandywine Fisheries and change — the counter at (541) 505-9686 is the authority.</p>
-</div></footer><div class="demobar">Demo build for Brandywine Fisheries — not live, not indexed. <a href="/brandywine-fisheries/about/" style="color:var(--gold)">About this build</a></div></body></html>
+</div></footer><div class="demobar">Demo build for Brandywine Fisheries — not live, not indexed. <a href="/brandywine-fisheries/about/" style="color:var(--gold)">About this build</a></div><script>
+(function(){
+ var t=document.querySelector('.top');
+ if(t){var f=function(){t.classList.toggle('scrolled',window.scrollY>8)};
+   addEventListener('scroll',f,{passive:true});f()}
+ if(!matchMedia('(prefers-reduced-motion:reduce)').matches&&'IntersectionObserver'in window){
+   var els=document.querySelectorAll('main section');
+   var io=new IntersectionObserver(function(es){es.forEach(function(e){
+     if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+   els.forEach(function(e){e.classList.add('rv');io.observe(e)})}
+})();
+</script></body></html>
