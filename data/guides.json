@@ -1,0 +1,483 @@
+{
+  "_source": "General seafood handling, buying and cooking knowledge, plus publicly documented facts about Oregon fisheries and the Charleston port. Where a guide references Brandywine's own practice it quotes their site. No invented business claims.",
+
+  "guides": [
+    {
+      "slug": "never-frozen-vs-frozen-at-sea",
+      "title": "Never Frozen vs Frozen-at-Sea: What Actually Changes",
+      "question": "Is never-frozen fish better than frozen-at-sea fish?",
+      "answer": "Neither is automatically better — they fail in different ways. Frozen-at-sea fish is frozen within hours of the catch and is often in better condition than 'fresh' fish that has travelled for a week. Never-frozen fish, like Brandywine's, is only better when the boat docks often enough that it reaches you within days. The variable that decides quality is time-and-temperature from catch to counter, not the word on the label.",
+      "sections": [
+        { "h": "What freezing does to fish", "p": "Water inside the muscle cells expands as it freezes. Slow freezing grows large ice crystals that puncture cell walls, and when the fish thaws, the cells leak — that puddle in the tray is the texture leaving. Commercial flash-freezing at sea drops the temperature so fast that the crystals stay tiny and the damage is minimal." },
+        { "h": "Why a never-frozen boat has to dock more often", "p": "Brandywine's own explanation is direct: their boat uses an ICE fish-hold, and 'not freezing our catch means we dock more often.' That is the trade. A freezer boat can stay out for weeks. An ice boat cannot, because the clock starts the moment the fish comes over the rail." },
+        { "h": "The handling that goes with it", "p": "Their site also notes they 'must employ various tactics that ensure we don't bruise the fish while on-board.' Bruising matters more on an ice boat because there is no freeze to lock the flesh — damage keeps developing all the way to the dock." },
+        { "h": "What to actually ask at a counter", "p": "Not 'is this fresh?' — everyone says yes. Ask when it landed. A counter that can answer with a day is telling you something real. A counter that cannot is telling you something too." }
+      ],
+      "takeaway": "Ask when it landed, not whether it was frozen.",
+      "related": ["what-sushi-grade-means", "how-to-tell-if-fish-is-fresh", "storing-fish-at-home"]
+    },
+    {
+      "slug": "what-sushi-grade-means",
+      "title": "What 'Sushi Grade' Actually Means",
+      "question": "What does sushi grade mean and is it regulated?",
+      "answer": "'Sushi grade' is not a legal or regulated term in the United States. No agency inspects for it and no standard defines it. It is a seller's assertion that the fish was handled well enough to eat raw — which makes the seller's handling practice, and their willingness to describe it, the only thing behind the words. Brandywine uses the phrase on their site and ties it to a specific practice: icing at the point of catch and docking often rather than freezing.",
+      "sections": [
+        { "h": "Why there is no standard", "p": "The FDA publishes guidance on parasite destruction for fish intended to be eaten raw — generally freezing at specified temperatures for specified times — but 'sushi grade' itself is a marketing phrase, not a certification. Two counters can use it to mean entirely different things." },
+        { "h": "What to ask instead", "p": "When did it land? How was it held on the boat? Was it bled? Has it been frozen, and if so how? A counter that can answer those four questions is giving you more information than any label." },
+        { "h": "The freezing paradox", "p": "For parasite risk in some species, freezing is the mitigation — which means 'never frozen' and 'safe to eat raw' can pull against each other. This is species-dependent. Tuna is generally treated differently from salmon in this respect. It is a reasonable thing to ask about directly." },
+        { "h": "Who should skip raw fish entirely", "p": "Standard public-health guidance: pregnant people, young children, older adults, and anyone immunocompromised should not eat raw fish, regardless of grade, handling, or source." }
+      ],
+      "takeaway": "It is a claim, not a certification. Judge the counter, not the phrase.",
+      "related": ["never-frozen-vs-frozen-at-sea", "how-to-tell-if-fish-is-fresh"]
+    },
+    {
+      "slug": "how-to-tell-if-fish-is-fresh",
+      "title": "How to Tell if Fish Is Fresh",
+      "question": "How can I tell if fish is fresh at the counter?",
+      "answer": "Smell it first — fresh fish smells like cold seawater or like nothing, never 'fishy'. Then look for flesh that springs back when pressed, a cut face with no gapping between muscle segments, and no liquid pooling in the tray. On a whole fish, the eyes should be clear and domed rather than sunken and cloudy, and the gills bright red rather than brown.",
+      "sections": [
+        { "h": "Smell", "p": "The ammonia or 'fishy' smell people associate with fish is the smell of fish going off. Trimethylamine builds up as it degrades. Genuinely fresh fish is close to odorless." },
+        { "h": "Gapping", "p": "Look at the cut end of a fillet. The muscle should read as one solid block. When the connective tissue between segments breaks down, the flakes separate visibly — that is gapping, and it means the fish is old, was handled roughly, or was frozen and thawed badly." },
+        { "h": "The tray", "p": "Liquid pooling under a fillet is cellular fluid that has leaked out. A little is normal. A puddle is not." },
+        { "h": "Springback", "p": "Press the thickest part with a fingertip. Fresh flesh returns. A dent that stays is a fish that has been sitting." },
+        { "h": "Whole fish", "p": "Clear domed eyes, bright red gills, tight scales, a firm body that does not sag when held flat. Whole fish tells you far more than a fillet does, which is one reason it is worth learning to buy." }
+      ],
+      "takeaway": "Smell, springback, gapping, and the puddle in the tray. Four checks, ten seconds.",
+      "related": ["never-frozen-vs-frozen-at-sea", "storing-fish-at-home", "what-sushi-grade-means"]
+    },
+    {
+      "slug": "storing-fish-at-home",
+      "title": "Storing Fresh Fish at Home",
+      "question": "How long does fresh fish keep in the fridge and how should I store it?",
+      "answer": "Two days for most fish, one to two for very lean thin fillets like sole, two to three for fatty fish like black cod. Store it on a rack set over ice in the coldest part of the fridge, not sitting in melted water. A home fridge runs around 38–40°F; fish wants to be closer to 32°F, and the ice is what closes that gap.",
+      "sections": [
+        { "h": "Why a rack over ice", "p": "Fish sitting in its own melt water degrades noticeably faster than fish held cold and dry. Set the fillet on a rack, put the rack in a pan, pack ice in the pan, cover loosely. Drain and refresh the ice daily." },
+        { "h": "Where in the fridge", "p": "The back of the bottom shelf is the coldest part of nearly every home refrigerator. The door is the warmest and swings several degrees every time it opens." },
+        { "h": "Freezing it properly", "p": "If it will not be cooked in the window, freeze it hard rather than letting it coast. Vacuum-seal if you can; otherwise wrap tightly in plastic, then foil, and press out every pocket of air. Air is what causes freezer burn." },
+        { "h": "Shellfish is different", "p": "Live shellfish — oysters, mussels, clams — need to breathe. Under a damp cloth, never sealed in a bag and never submerged in fresh water, which kills them." }
+      ],
+      "takeaway": "On ice, on a rack, at the back of the bottom shelf. Two days.",
+      "related": ["how-to-tell-if-fish-is-fresh", "thawing-fish-properly", "buying-shellfish-alive"]
+    },
+    {
+      "slug": "thawing-fish-properly",
+      "title": "Thawing Fish Without Wrecking It",
+      "question": "What is the best way to thaw frozen fish?",
+      "answer": "Overnight in the refrigerator, still in its wrapping, on a plate. It is slower than every alternative and it is the only method that does not cost you texture. Never thaw fish on the counter, and never thaw vacuum-sealed fish in its bag at room temperature — the low-oxygen environment is exactly what botulism spores prefer.",
+      "sections": [
+        { "h": "The refrigerator method", "p": "Twelve to twenty-four hours depending on thickness. Put it on a plate; it will release liquid. This is the method that preserves texture because the muscle reabsorbs some of the moisture as it thaws slowly." },
+        { "h": "When you forgot", "p": "Sealed in a watertight bag, submerged in cold running water, thirty minutes to an hour. Cold water, not warm — warm water starts cooking the outer layer while the center is still frozen." },
+        { "h": "The vacuum-seal warning", "p": "Remove vacuum-sealed fish from its packaging before thawing, or at minimum cut the seal open. This is standard guidance from food-safety authorities and it is worth taking seriously." },
+        { "h": "Cooking from frozen", "p": "Perfectly viable for thin fillets — roast at 425°F and add about half again to the cooking time. It is often better than a rushed thaw." }
+      ],
+      "takeaway": "Overnight in the fridge, out of the vacuum bag. Everything else is a compromise.",
+      "related": ["storing-fish-at-home", "never-frozen-vs-frozen-at-sea"]
+    },
+    {
+      "slug": "internal-temperatures-for-fish",
+      "title": "Internal Temperatures for Fish, by Species",
+      "question": "What internal temperature should fish be cooked to?",
+      "answer": "The FDA guideline for finfish is 145°F. Most cooks pull fish well below that: salmon at 125°F, halibut at 130–135°F, black cod at 140°F, tuna seared and left at 115°F in the center. The gap exists because 145°F is a conservative safety figure, and lean fish is dry long before it gets there. Fatty fish is forgiving; lean fish is not.",
+      "sections": [
+        { "h": "The numbers", "p": "Chinook and coho salmon, 125–130°F. Steelhead, 125–130°F. Pacific halibut, 130–135°F. Lingcod, rockfish, Pacific cod and sole, 135°F. Black cod, 140°F. Albacore and ahi, 115–120°F in the center. Shellfish is cooked by observation — shells open, shrimp curl into a loose C." },
+        { "h": "Why fat changes the target", "p": "Oil holds heat and holds moisture. Black cod at 140°F is still silky because the oil buffers it. Halibut at 140°F is chalky, because there is nothing in it to buffer." },
+        { "h": "Carryover", "p": "Fish keeps cooking after it leaves the heat — 3°F for a thin fillet, up to 8°F for a thick one. Pull early and let it rest." },
+        { "h": "The honest caveat", "p": "Any temperature below 145°F is below the published FDA guideline. That is a choice cooks make routinely for quality, and it is worth making knowingly rather than by accident." }
+      ],
+      "takeaway": "145°F is the guideline. 125–135°F is where most of these fish are actually best.",
+      "related": ["cooking-lean-vs-fatty-fish", "why-fish-sticks-to-the-pan"]
+    },
+    {
+      "slug": "cooking-lean-vs-fatty-fish",
+      "title": "Lean Fish vs Fatty Fish: Cook Them Differently",
+      "question": "Why does some fish dry out so much faster than others?",
+      "answer": "Fat content. Black cod, chinook salmon and albacore carry enough oil to stay moist several degrees past their ideal temperature. Halibut, sole, rockfish and Pacific cod have almost none, so the moment the proteins tighten there is nothing left to hold water and the texture collapses. The same five extra minutes that barely affects black cod will ruin halibut.",
+      "sections": [
+        { "h": "The fatty group", "p": "Black cod above all, then chinook salmon, steelhead, albacore. These take smoke well, slow-roast beautifully, and forgive inattention. If you are nervous about cooking fish, start here." },
+        { "h": "The lean group", "p": "Halibut, Pacific cod, sole, rockfish, lingcod, mahi mahi. Fast and hot, or gently poached. Never slow and never unattended. A thermometer is not optional." },
+        { "h": "Matching method to fat", "p": "Fatty fish suits smoking, slow roasting and grilling, where the fat renders and bastes. Lean fish suits frying, where a batter does the protecting, or poaching, where liquid does." },
+        { "h": "The buying implication", "p": "The most expensive fish in the case, halibut at $38.95 a pound, is also the least forgiving. Black cod at $18.95 is the most forgiving. That is worth knowing before a dinner party." }
+      ],
+      "takeaway": "Fat is the margin for error. Lean fish gives you none.",
+      "related": ["internal-temperatures-for-fish", "black-cod-vs-halibut"]
+    },
+    {
+      "slug": "why-fish-sticks-to-the-pan",
+      "title": "Why Fish Sticks to the Pan",
+      "question": "How do I keep fish from sticking?",
+      "answer": "Three causes, in order of frequency: the fish was wet, the pan was not hot enough, or you tried to turn it too early. Fish proteins bond to metal until a crust forms, and then they release on their own. If it will not lift, it is not ready — the fix is thirty more seconds, not more force.",
+      "sections": [
+        { "h": "Dry the fish", "p": "Paper towel, both sides, thoroughly. Surface moisture has to boil off before browning can start, and while that happens the fish is steaming against the metal and bonding to it." },
+        { "h": "Heat the pan properly", "p": "Cast iron or heavy stainless, three to four minutes over medium-high before anything goes in. Oil should shimmer and move like water, not sit there thickly." },
+        { "h": "Oil the fish", "p": "Brush oil onto the fillet rather than pouring it into a screaming pan. Less smoke, more even coverage." },
+        { "h": "Then leave it alone", "p": "Do not poke, slide, or check. Three to four minutes, then test one edge with a thin spatula. If there is resistance, wait." },
+        { "h": "Skin-on is easier", "p": "Skin is a built-in barrier between delicate flesh and hot metal. Skin-side down, press flat for ten seconds to stop it curling, and give it most of the cooking time." }
+      ],
+      "takeaway": "Dry fish, hot pan, and patience. It releases itself.",
+      "related": ["internal-temperatures-for-fish", "skin-on-or-skin-off"]
+    },
+    {
+      "slug": "skin-on-or-skin-off",
+      "title": "Skin On or Skin Off",
+      "question": "Should I cook fish with the skin on?",
+      "answer": "Skin on for searing, grilling and roasting — it protects the flesh from direct heat and, done properly, is the best-textured part of the dish. Skin off for poaching and any moist-heat method, where it turns flabby and unpleasant. Salmon, steelhead and rockfish skin crisps well. Halibut skin is thick and generally removed.",
+      "sections": [
+        { "h": "How to actually crisp it", "p": "Dry the skin harder than you dry the flesh. Salt it and let it sit uncovered in the fridge for thirty minutes if you have time. Skin-side down in a hot pan, press flat for ten seconds so it does not curl away from the heat, then leave it for 80% of the cooking time." },
+        { "h": "Which skins are worth eating", "p": "Salmon, steelhead, black cod, rockfish, and sea bass all crisp into something genuinely good. Halibut and swordfish skin are thick and tough. Lingcod skin is edible but rarely worth the effort." },
+        { "h": "Scales", "p": "Skin you intend to eat must be scaled. Run the back of a knife from tail to head under running water, or ask the counter to do it." },
+        { "h": "Removing it after cooking", "p": "If you want the protection but not the skin, cook skin-on and lift the fillet off it at the end. It comes away cleanly once cooked." }
+      ],
+      "takeaway": "On for dry heat, off for wet heat. Dry it hard and press it flat.",
+      "related": ["why-fish-sticks-to-the-pan", "internal-temperatures-for-fish"]
+    },
+    {
+      "slug": "pin-bones",
+      "title": "Pin Bones, and How to Get Them Out",
+      "question": "How do I remove pin bones from a salmon fillet?",
+      "answer": "Run a fingertip along the centerline of the thick end of the fillet — the pin bones sit in a row, angled toward the head. Grip each one with needle-nose pliers or fish tweezers and pull in the direction it points, not straight up. Pulling against the angle tears the flesh and leaves a visible crater.",
+      "sections": [
+        { "h": "Finding them", "p": "Drape the fillet skin-side down over an upturned bowl. The curve pushes the bones proud of the surface and they become easy to feel and see." },
+        { "h": "The right tool", "p": "Fish tweezers or clean needle-nose pliers. Kitchen tweezers usually lack the grip and slip off, which is how flesh gets torn." },
+        { "h": "The direction", "p": "The bones angle toward the head end. Pull along that angle. It is the single detail that separates a clean fillet from a shredded one." },
+        { "h": "Which fish have them", "p": "Salmon and steelhead, prominently. Most of the round white fish have far fewer. Flatfish — halibut, sole — are filleted off the frame in a way that leaves none." }
+      ],
+      "takeaway": "Bowl underneath, pliers, pull with the angle.",
+      "related": ["how-to-portion-a-fillet", "skin-on-or-skin-off"]
+    },
+    {
+      "slug": "how-to-portion-a-fillet",
+      "title": "Portioning a Whole Fillet",
+      "question": "How much fish per person, and how do I cut a side into portions?",
+      "answer": "Six to eight ounces per person for most fish; five to six for something rich like black cod, and eight for thin sole. Cut a whole side into equal-weight portions rather than equal-width ones — the tail end is thin and the shoulder is thick, so equal widths cook at wildly different rates and something is always overdone.",
+      "sections": [
+        { "h": "Cut for thickness, not for looks", "p": "Portions of matching thickness finish together. Portions of matching width do not. Cut the thin tail section wider and the thick shoulder narrower." },
+        { "h": "The tail piece", "p": "The last few inches of a side are too thin to cook alongside the rest. Fold it under itself to double the thickness, or set it aside for ceviche, chowder or a salad." },
+        { "h": "Angle the knife", "p": "A slight angle gives a larger cut face and a better-looking plate, and it evens out thickness at the same time." },
+        { "h": "What to do with the frame", "p": "The bones and head make the best stock you will ever have and are usually free for the asking at a counter." }
+      ],
+      "takeaway": "Equal thickness, not equal width. 6–8 oz a head.",
+      "related": ["pin-bones", "fish-stock-from-frames"]
+    },
+    {
+      "slug": "fish-stock-from-frames",
+      "title": "Stock from Frames and Heads",
+      "question": "Can I make stock from fish bones?",
+      "answer": "Yes, and it takes twenty-five minutes rather than the hours meat stock needs. Rinse the frames well, cover with cold water and aromatics, bring barely to a simmer, and stop at twenty-five to thirty minutes. Fish stock turns bitter if it goes longer — this is the one stock where more time makes it worse.",
+      "sections": [
+        { "h": "Which bones", "p": "Lean white fish — rockfish, cod, lingcod, halibut, sole. Oily fish makes a strong, greasy stock that overwhelms most dishes. Do not use salmon frames for a general-purpose stock." },
+        { "h": "Rinse thoroughly", "p": "Blood left in the frame turns the stock cloudy and bitter. Rinse until the water runs clear, and pull the gills out of any heads — they are the single biggest source of off flavors." },
+        { "h": "Twenty-five minutes", "p": "Barely simmering, never boiling, and skim the foam off the top. Past thirty minutes the bones start giving up compounds that taste bitter and chalky." },
+        { "h": "Ask for the frames", "p": "Most counters will hand over frames and heads for nothing or nearly nothing. It is the cheapest genuine luxury in cooking." }
+      ],
+      "takeaway": "Lean frames, cold water, twenty-five minutes, never boil.",
+      "related": ["how-to-portion-a-fillet", "clam-chowder-notes"]
+    },
+    {
+      "slug": "buying-shellfish-alive",
+      "title": "Buying and Keeping Live Shellfish",
+      "question": "How do I know if oysters, mussels and clams are still alive?",
+      "answer": "A live bivalve is either closed, or it closes when you tap it. Discard any that stay open after a firm tap, and any with cracked shells. After cooking the test reverses: discard the ones that did not open. Store them under a damp cloth in the fridge — never sealed in a plastic bag and never submerged in fresh water, both of which kill them.",
+      "sections": [
+        { "h": "Before cooking", "p": "Tap any gaping shell against the counter. A live animal pulls itself shut, sometimes slowly. One that stays open is dead and goes in the bin." },
+        { "h": "After cooking", "p": "Shells that stayed shut through steaming get discarded. Do not pry them open, and do not keep steaming the whole pot waiting for stragglers — you will turn everything else to rubber." },
+        { "h": "Storage", "p": "Damp cloth, open container, coldest shelf. Oysters cup-side down so they hold their liquor. They need air; a sealed bag suffocates them." },
+        { "h": "Purging sand", "p": "Clams benefit from thirty minutes in salted water — roughly a third of a cup of salt per gallon, never fresh water — to spit out grit." },
+        { "h": "The R-months rule", "p": "The old advice about only eating oysters in months with an R was about spawning-season texture and pre-refrigeration risk. Farmed oysters are sold safely year-round; they are simply firmer and better in the cold months." }
+      ],
+      "takeaway": "Tap it before, check it opened after, and never seal them in a bag.",
+      "related": ["shucking-oysters", "storing-fish-at-home"]
+    },
+    {
+      "slug": "shucking-oysters",
+      "title": "Shucking Oysters Without Hurting Yourself",
+      "question": "How do I shuck an oyster?",
+      "answer": "Fold a thick towel over the oyster with the hinge exposed and the cup side down. Work the knife tip into the hinge and twist rather than push — the motion that opens an oyster is rotation, not force. Once it pops, run the blade along the top shell to cut the adductor muscle, lift the lid off, then free the meat underneath.",
+      "sections": [
+        { "h": "The knife", "p": "A real oyster knife with a short stiff blade and a guard. A paring knife will snap, and a snapped blade in a gripped hand is how people end up in urgent care." },
+        { "h": "The towel", "p": "It grips the shell, absorbs the shock, and protects your hand. Never hold an oyster in a bare palm." },
+        { "h": "Twist, do not stab", "p": "The tip goes into the hinge maybe a quarter inch and then rotates like a key. If you are pushing hard you are in the wrong spot — find the hinge again." },
+        { "h": "Keep the liquor", "p": "The liquid in the shell is most of the flavor. Shuck level and do not tip it out." },
+        { "h": "Check for shell", "p": "Run a fingertip around the meat before serving. Chips happen even to people who do this all day." }
+      ],
+      "takeaway": "Towel, real knife, twist at the hinge, keep the liquor.",
+      "related": ["buying-shellfish-alive", "pacific-oysters"]
+    },
+    {
+      "slug": "cleaning-dungeness-crab",
+      "title": "Cleaning and Picking a Dungeness Crab",
+      "question": "How do I clean a whole Dungeness crab?",
+      "answer": "Lift the carapace off from the back, snap the crab in half, and pull away the feathery gills and the mouthparts. Rinse out the cavity. Most Dungeness sold over a counter is already cooked, so this is a cleaning job rather than a cooking one — and cold cracked crab is what most of it is for.",
+      "sections": [
+        { "h": "Back off first", "p": "Grip the top shell at the back edge and lift. It comes away as one piece and takes most of the mess with it." },
+        { "h": "Gills and the apron", "p": "The feathery grey gills along each side are not eaten. Pull them off, along with the triangular apron on the belly and the mouthparts at the front." },
+        { "h": "The butter", "p": "The soft yellow-brown material in the body cavity is the hepatopancreas, called crab butter. Some people prize it. Health advisories generally recommend against eating it because contaminants concentrate there — worth knowing so you can decide." },
+        { "h": "Picking the meat", "p": "The legs hold the best meat. Crack each with the back of a knife or a mallet, and use a chopstick to push whole sections out cleanly." },
+        { "h": "Yield", "p": "A whole Dungeness gives roughly a quarter of its weight in picked meat. Plan on a whole crab per person, or half a pound of picked meat." }
+      ],
+      "takeaway": "Back off, gills out, rinse. A crab is about a quarter meat by weight.",
+      "related": ["dungeness-crab", "oregon-dungeness-season"]
+    },
+    {
+      "slug": "oregon-dungeness-season",
+      "title": "Why the Oregon Crab Season Opens Late Most Years",
+      "question": "When does Oregon Dungeness crab season open?",
+      "answer": "The Oregon commercial Dungeness season is scheduled to open December 1, and in most recent years it has been delayed — sometimes by weeks. Openings are held back until testing shows the crab have filled with meat and until domoic acid levels are safe. The fishery waits on the crab and the toxin tests rather than the calendar.",
+      "sections": [
+        { "h": "Meat fill", "p": "Crab caught too soon after molting are watery and light. Pre-season testing samples crab across the coast, and if the meat recovery is below the threshold, the opening moves. It protects both the resource and the buyer." },
+        { "h": "Domoic acid", "p": "A naturally occurring biotoxin produced by certain algae blooms, which concentrates in shellfish. State agencies test before and during the season and can close areas mid-season. This is why crab openings are sometimes partial, with some stretches of coast open and others closed." },
+        { "h": "What it means for buying", "p": "Early-season crab, once it opens, is generally excellent — the delay exists precisely to guarantee that. The season traditionally runs into the following summer." },
+        { "h": "Charleston's part", "p": "Charleston, where the Brandywine is based, is one of Oregon's working crab ports along with Newport, Astoria and Coos Bay." }
+      ],
+      "takeaway": "December 1 on paper, later in practice — and the delay is the quality control.",
+      "related": ["cleaning-dungeness-crab", "domoic-acid-and-closures", "charleston-oregon-port"]
+    },
+    {
+      "slug": "domoic-acid-and-closures",
+      "title": "Biotoxin Closures, and Why They Are Good News",
+      "question": "What is domoic acid and why do shellfish areas close?",
+      "answer": "Domoic acid is a natural biotoxin produced during certain algae blooms. Shellfish filter it from the water and concentrate it, and it is not destroyed by cooking. Oregon agencies test regularly and close harvest areas when levels rise. A closure is the system working — it means someone tested before the product reached a counter.",
+      "sections": [
+        { "h": "It is natural, not pollution", "p": "The blooms that produce it are naturally occurring, though their frequency and duration have been increasing. It is not an industrial contaminant." },
+        { "h": "Cooking does not help", "p": "Domoic acid is heat-stable. This is why the testing-and-closure system exists rather than a handling guideline." },
+        { "h": "Which species", "p": "Filter feeders concentrate it most — mussels, clams, oysters and razor clams. In crab it accumulates in the viscera, which is part of why advisories recommend against eating the crab butter." },
+        { "h": "Recreational vs commercial", "p": "Commercially sold shellfish comes from tested, open areas. If you dig your own, check current state closures before every trip — they change week to week." }
+      ],
+      "takeaway": "Cooking will not remove it, which is exactly why the testing exists.",
+      "related": ["oregon-dungeness-season", "buying-shellfish-alive"]
+    },
+    {
+      "slug": "charleston-oregon-port",
+      "title": "Charleston, Oregon: A Working Harbor",
+      "question": "Where is Charleston, Oregon and what is landed there?",
+      "answer": "Charleston sits at the mouth of Coos Bay on the southern Oregon coast and is one of the state's working commercial fishing harbors. It is the home port of the F/V Brandywine, which their site describes as hand-built in Charleston and still one of the core independent boats in the harbor.",
+      "sections": [
+        { "h": "The harbor", "p": "Charleston is a small community and a genuine working port rather than a tourist marina — a mix of crab, groundfish, shrimp, tuna and salmon boats, with processing and ice on the dock." },
+        { "h": "What comes across the dock", "p": "Dungeness crab in winter and spring, pink shrimp from spring into fall, albacore in late summer, and groundfish — rockfish, lingcod, sablefish — across much of the year." },
+        { "h": "Independent boats", "p": "'Independent' means the boat is owner-operated rather than part of a processor's fleet. Brandywine's site emphasizes this: theirs 'remains one of the core, independent boats in Charleston harbor.'" },
+        { "h": "Why it matters at a market booth in Bend", "p": "Charleston to Bend is a long way — several hours over the Cascades. A boat that ices rather than freezes has to dock often, and the fish has to move fast. That logistics chain is the actual product." }
+      ],
+      "takeaway": "A working southern-coast harbor, and the Brandywine's home port.",
+      "related": ["never-frozen-vs-frozen-at-sea", "ice-fish-holds"]
+    },
+    {
+      "slug": "ice-fish-holds",
+      "title": "What an Ice Fish-Hold Is",
+      "question": "What does it mean when a boat uses an ice hold instead of a freezer?",
+      "answer": "An ice hold chills the catch with flaked ice or chilled seawater and keeps it just above freezing, rather than freezing it solid. Fish stays in a fresh, never-frozen state — but it has a clock on it, so the boat has to return to port far more often than a freezer boat does. Brandywine describes exactly this: an ICE fish-hold, and docking more often as the direct consequence.",
+      "sections": [
+        { "h": "How it works", "p": "The fish is layered with flaked ice, or held in refrigerated seawater, at close to 32°F. Cold enough to slow bacterial and enzymatic breakdown almost to a stop; not cold enough to form ice crystals in the flesh." },
+        { "h": "The trade-off", "p": "Freezer boats can fish for weeks and land a product that is, in cellular terms, minimally damaged. Ice boats land a product that has never been frozen but must reach a counter quickly. Neither is universally better — they are different businesses." },
+        { "h": "Why bruising matters more", "p": "On an ice boat, damage keeps developing all the way to the dock. This is why Brandywine's site talks about the 'various tactics' needed to avoid bruising the fish on board." },
+        { "h": "What it means for a buyer", "p": "Never-frozen only beats frozen-at-sea if the chain from dock to counter is short. A boat that docks often, a store an hour inland, and a market booth the same week is what makes that claim mean something." }
+      ],
+      "takeaway": "Just above freezing, never frozen — and a short clock the whole way.",
+      "related": ["never-frozen-vs-frozen-at-sea", "charleston-oregon-port", "what-sushi-grade-means"]
+    },
+    {
+      "slug": "trolling-vs-trawling",
+      "title": "Trolling vs Trawling: Not the Same Word",
+      "question": "What is the difference between trolling and trawling?",
+      "answer": "Trolling is hook-and-line fishing — baited lines or lures drawn slowly through the water, with fish taken one at a time. Trawling is towing a net. They sound alike and are constantly confused, but they are different gear, different catch quality, and different bycatch profiles. Salmon and albacore are trolled; shrimp and some groundfish are trawled.",
+      "sections": [
+        { "h": "Trolling", "p": "Lines with lures or bait, drawn behind a slow-moving boat. Each fish comes aboard individually, which allows immediate bleeding and icing. It is the reason troll-caught salmon and albacore command a premium — the handling is possible in a way it is not on a net boat." },
+        { "h": "Trawling", "p": "A net towed through the water or along the bottom. Far more efficient per hour, and the gear that supplies most of the world's whitefish. Modern trawls in well-managed fisheries use excluder devices to keep unwanted species out." },
+        { "h": "Bycatch", "p": "Trolling is inherently selective — you catch what strikes the lure. Trawling catches what enters the net, which is why gear modification matters so much there. Oregon's pink shrimp fishery is a frequently cited example of successful bycatch reduction in a trawl fishery." },
+        { "h": "Brandywine's language", "p": "Their site describes their approach as 'Bi-Catch Safe' — that 'our fishing methods ensure that we safely catch the product we fish for.'" }
+      ],
+      "takeaway": "Trolling is hooks and one fish at a time. Trawling is a net.",
+      "related": ["bycatch-and-gear", "ice-fish-holds"]
+    },
+    {
+      "slug": "bycatch-and-gear",
+      "title": "Bycatch, and What Gear Has to Do With It",
+      "question": "What is bycatch and which fishing methods have the least?",
+      "answer": "Bycatch is everything caught that was not the target. Hook-and-line gear — trolling, longlining, jigging — is inherently selective and produces little of it. Net gear catches whatever enters the net, so bycatch there is managed through gear design: excluder devices, mesh size, LED lighting, and area and season closures.",
+      "sections": [
+        { "h": "Selective gear", "p": "A troll lure at a set depth catches a narrow range of species. This is why the salmon, albacore, lingcod and rockfish in a hook-and-line operation come with a small bycatch footprint." },
+        { "h": "Gear modification in net fisheries", "p": "Oregon's pink shrimp trawl fishery is a standard example — excluder grates and LED lights on the net have cut finfish bycatch dramatically, and the fishery has been independently certified as sustainable." },
+        { "h": "Why depth and area rules exist", "p": "Much of West Coast groundfish management is about keeping gear away from depths and areas where overfished species live. This is why nearshore lingcod and rockfish seasons come with depth restrictions that shift through the year." },
+        { "h": "What a buyer can do", "p": "Ask what gear it was caught with. It is a more informative question than asking whether it is sustainable, because the answer is specific and checkable." }
+      ],
+      "takeaway": "Hooks are selective by nature. Nets are selective by design.",
+      "related": ["trolling-vs-trawling", "bay-shrimp"]
+    },
+    {
+      "slug": "wild-vs-farmed-salmon",
+      "title": "Wild vs Farmed Salmon",
+      "question": "What is the difference between wild and farmed salmon?",
+      "answer": "Different species, different fat, different color, different price. Nearly all farmed salmon is Atlantic salmon, raised in pens on formulated feed, available year-round at a stable price. Wild Pacific salmon — chinook, coho, sockeye, pink, chum — is seasonal, leaner in some species and fattier in others, and varies fish to fish. Brandywine sells wild Pacific: chinook and coho.",
+      "sections": [
+        { "h": "Species", "p": "'Farmed salmon' almost always means Salmo salar, the Atlantic salmon. Wild Pacific salmon are a different genus entirely — Oncorhynchus. They are not the same fish under different management." },
+        { "h": "Color", "p": "Both get their color from carotenoids. Wild salmon accumulate it from a diet of krill and crustaceans; farmed salmon get it added to feed. The pigment itself is the same compound." },
+        { "h": "Fat and texture", "p": "Farmed Atlantic is consistently fatty and mild, which makes it forgiving and popular. Wild chinook is comparably rich; wild coho and sockeye are leaner and more assertive." },
+        { "h": "Season and price", "p": "Farmed salmon is available every day of the year at a predictable price. Wild is tied to openings — Brandywine's chinook is $29.95 a pound and their coho $18.95, and both depend on the season being open." },
+        { "h": "Which is 'better'", "p": "It depends entirely on what you want. Consistency and price favor farmed. Flavor variation, seasonality and a specific fishery favor wild. Anyone claiming a universal answer is selling something." }
+      ],
+      "takeaway": "Different species entirely. Wild is seasonal and variable; farmed is consistent and always there.",
+      "related": ["chinook-salmon", "coho-salmon", "chinook-vs-coho"]
+    },
+    {
+      "slug": "omega-3-and-mercury",
+      "title": "Omega-3s and Mercury, Honestly",
+      "question": "Which fish are highest in omega-3s and which have the most mercury?",
+      "answer": "Fatty fish carry the most omega-3s — salmon, black cod and albacore lead the case. Mercury concentrates up the food chain, so large, long-lived predators carry the most: swordfish and the larger tunas are the highest here, while salmon, shrimp, rockfish, sole and shellfish are all in the low-mercury group. FDA and EPA publish specific advice for people who are pregnant or feeding children.",
+      "sections": [
+        { "h": "The omega-3 group", "p": "Chinook salmon, black cod and albacore are the richest in the case. It tracks with oil content almost exactly — the fish that are hardest to overcook are the ones carrying the most." },
+        { "h": "The low-mercury group", "p": "Salmon, shrimp, oysters, mussels, clams, sole, rockfish and Pacific cod all sit in the 'best choices' tier of published FDA/EPA guidance." },
+        { "h": "The higher-mercury group", "p": "Swordfish sits in the group federal guidance recommends avoiding during pregnancy. Among tunas, albacore is moderate and generally listed as a 'good choice' with a serving limit, while smaller tunas are lower." },
+        { "h": "Where to check", "p": "The FDA and EPA maintain a joint advice chart that is updated periodically. It is the authoritative source, and it is more current than anything a fish counter or a website will tell you — including this one." }
+      ],
+      "takeaway": "Fatty fish for omega-3s; big predators for mercury. Check the FDA/EPA chart for specifics.",
+      "related": ["albacore-tuna", "swordfish", "cooking-lean-vs-fatty-fish"]
+    },
+    {
+      "slug": "market-pre-order",
+      "title": "How Market Pre-Ordering Works",
+      "question": "Can I reserve fish before a farmers market?",
+      "answer": "Brandywine runs a market pre-order list — you order ahead and collect at the booth. It exists because the markets have short windows: Corvallis is four hours, Bend is four, Portland is five and a half. Popular cuts sell out inside those windows, and a pre-order is how you make sure a specific item is there when you arrive.",
+      "sections": [
+        { "h": "Why it matters most at the short markets", "p": "The Eugene Saturday market runs six hours. Corvallis and Bend run four. A four-hour window with a fixed amount of halibut on the table is a genuine race." },
+        { "h": "What the pre-order list covers", "p": "The pre-order catalogue runs to 26 items — the fresh fish by the pound and half-pound, and most of the smoked line, including half-pound portions of the smoked salmon, black cod and tuna loin that are only offered whole in the main store listing." },
+        { "h": "Half portions", "p": "Several items are available in half-pound sizes at market that are not listed that way elsewhere — smoked salmon at $25 for a half pound against $50 for the pound, smoked black cod at $20, smoked tuna loin at $20." },
+        { "h": "Price differences", "p": "A few items are priced differently at market. Pacific rockfish is $12.95 a pound on the pre-order list against $13.95 in the general shop." }
+      ],
+      "takeaway": "Short market windows, finite fish. Pre-order is how you guarantee the cut.",
+      "related": ["farmers-market-etiquette", "springfield-store"]
+    },
+    {
+      "slug": "farmers-market-etiquette",
+      "title": "Buying Fish at a Farmers Market",
+      "question": "How do I buy fish at a farmers market and get it home safely?",
+      "answer": "Bring a cooler with ice and make the fish stand your last stop. Ask what landed most recently rather than what is freshest — it is a question with a real answer. Buy for the next two days rather than the week. And at a four-hour market, come early: the halibut and the smoked salmon go first.",
+      "sections": [
+        { "h": "Bring a cooler", "p": "Not optional in an Oregon summer. Fish that rides home warm on a car seat has lost a day of its life before it reaches your kitchen, and in Bend in August it has lost more than that." },
+        { "h": "Last stop", "p": "Do the vegetables first. Every minute the fish spends out of a cooler counts against it." },
+        { "h": "Ask better questions", "p": "'What came in most recently?' and 'what would you cook tonight?' get you real information. 'Is this fresh?' gets you a yes from everyone, everywhere." },
+        { "h": "Go early at the short markets", "p": "Corvallis and Bend run four hours. Portland starts at 8:30am. The best of the case does not survive the first hour and a half." },
+        { "h": "Cash and the line", "p": "Markets get busy in surges. Knowing what you want before you reach the front is a kindness to everyone behind you." }
+      ],
+      "takeaway": "Cooler in the car, fish stand last, and get there early at the short markets.",
+      "related": ["market-pre-order", "transporting-fish-home"]
+    },
+    {
+      "slug": "transporting-fish-home",
+      "title": "Getting Fish Home in Good Shape",
+      "question": "How do I transport fresh fish home from the coast or a market?",
+      "answer": "A cooler with ice, the fish sitting on top of the ice rather than buried under it, and a straight drive home. Fish held near 32°F keeps for days; fish that spends two hours at 60°F in a car has lost most of its remaining life. Long drives — a market in Bend, a trip back over the Cascades — deserve more ice, not less.",
+      "sections": [
+        { "h": "On the ice, not in it", "p": "Direct contact with melting ice water leaches flavor and softens texture. Put the wrapped fish on top, or set it on a rack inside the cooler." },
+        { "h": "Cool the cooler first", "p": "A cooler that has been in a hot car spends its first hour of ice just getting itself down to temperature. Pre-chill it if you can." },
+        { "h": "Drain it", "p": "Melt water pooling around the package is worse than no ice at all. Pull the plug periodically on a long drive." },
+        { "h": "The Bend problem", "p": "Bend is several hours over the mountains from the coast. Everything sold there arrives having already made that trip — which is precisely why a boat that ices and docks often is the argument being made. Once you have bought it, the last leg is your responsibility." },
+        { "h": "Straight home", "p": "The fish stop is the last stop. Errands afterward are how good fish becomes mediocre fish." }
+      ],
+      "takeaway": "On top of the ice, drained, and driven straight home.",
+      "related": ["farmers-market-etiquette", "storing-fish-at-home"]
+    },
+    {
+      "slug": "smoking-fish-at-home",
+      "title": "Smoking Fish at Home",
+      "question": "How do I smoke salmon at home?",
+      "answer": "Brine, dry to a pellicle, then smoke low. A basic cure of salt and sugar for four to twelve hours depending on thickness; rinse; then air-dry on a rack in the fridge until the surface turns tacky. That tacky pellicle is what smoke adheres to. Then hot-smoke at 175–225°F over alder or apple to an internal temperature of 160°F.",
+      "sections": [
+        { "h": "The brine", "p": "A workable starting ratio is one cup of salt and one cup of brown sugar per gallon of water. Thin fillets need four hours; thick pieces up to twelve. Over-brining makes fish unpleasantly salty and firm." },
+        { "h": "The pellicle is the whole trick", "p": "After brining, rinse and pat dry, then leave the fish uncovered on a rack in the fridge for two to four hours. When the surface feels tacky rather than wet, it is ready. Skip this and the smoke rolls off and you get salty baked fish." },
+        { "h": "Wood", "p": "Alder is the traditional Pacific Northwest wood for salmon and burns mild and slightly sweet. Apple is a little sweeter still. Brandywine's own smoked line uses applewood and alderwood." },
+        { "h": "Temperature", "p": "Hot smoking runs 175–225°F to an internal 160°F. Cold smoking below 90°F is a curing process with real safety requirements and is not a beginner project." },
+        { "h": "Which fish", "p": "Fatty fish. Salmon, steelhead, black cod, albacore. Lean white fish dries out long before it takes on any smoke flavor." }
+      ],
+      "takeaway": "Brine, then the pellicle, then low smoke. The pellicle is the step people skip.",
+      "related": ["smoke", "black-cod", "chinook-salmon"]
+    },
+    {
+      "slug": "clam-chowder-notes",
+      "title": "What Makes Good Clam Chowder",
+      "question": "How do I make good clam chowder?",
+      "answer": "Clam liquor for the liquid, potatoes that hold together, and the clams added at the very end. The single most common failure is boiling the clams in the pot for twenty minutes, which turns them to rubber. Build the base, get it right, then add the clams in the last two minutes to warm through.",
+      "sections": [
+        { "h": "The liquid", "p": "Clam liquor and clam broth carry more flavor than any stock you would substitute. Brandywine's shelves carry both clam juice and clam broth as pantry items for exactly this." },
+        { "h": "Potato choice", "p": "A waxy or all-purpose potato holds its shape. Russets disintegrate and thicken the pot into paste — sometimes wanted, usually not." },
+        { "h": "Clams last", "p": "Two minutes at the end, off the boil. Everything that makes a clam good is destroyed by simmering." },
+        { "h": "Thickening", "p": "A light roux at the start, or a little of the potato mashed against the side of the pot. Chowder should coat a spoon, not stand a spoon up." },
+        { "h": "The Springfield version", "p": "Fresh hot clam chowder is one of the eight things Brandywine lists as always available at the Springfield store — sold by the cup, alongside the case." }
+      ],
+      "takeaway": "Clam liquor for the base, waxy potatoes, clams in the last two minutes.",
+      "related": ["steamer-clams", "fish-stock-from-frames", "springfield-store"]
+    },
+    {
+      "slug": "reading-a-fish-counter",
+      "title": "How to Read a Fish Counter",
+      "question": "What should I look for at a seafood counter?",
+      "answer": "Look at the ice, not just the fish. Fish should be on ice, not in melt water, arranged so nothing sits in a puddle, with the fillets set skin-down and separated. Then look at the staff: a counter where someone can tell you what landed this week and what they would cook tonight is a counter that turns its stock over.",
+      "sections": [
+        { "h": "The ice", "p": "Clean, fresh, well-drained, and plenty of it. Grey slushy melt water with fillets sitting in it is the single most reliable bad sign in a seafood case." },
+        { "h": "Arrangement", "p": "Product separated, not stacked. Stacked fillets crush the ones underneath and the bottom of the pile is always the oldest." },
+        { "h": "Variety versus turnover", "p": "A huge selection at a low-traffic shop means slow turnover on most of it. A short case that sells out is usually the better bet." },
+        { "h": "The staff test", "p": "Ask what came in most recently. Anyone who handles the product knows. A shrug is an answer." },
+        { "h": "Whole fish on display", "p": "A counter that carries whole fish is showing you its evidence — clear eyes, red gills and firm bodies are much harder to fake than a fillet." }
+      ],
+      "takeaway": "Judge the ice and the staff. Both tell you more than the fish does.",
+      "related": ["how-to-tell-if-fish-is-fresh", "what-sushi-grade-means"]
+    },
+    {
+      "slug": "seafood-for-people-who-dont-like-fish",
+      "title": "Where to Start if You Think You Don't Like Fish",
+      "question": "What seafood should I try if I don't like fish?",
+      "answer": "Most people who say they dislike fish have had it overcooked or old. Start with black cod — its oil content makes it nearly impossible to dry out and it tastes buttery rather than fishy. Then scallops and Dungeness crab, both sweet and mild. Save assertive fish like coho and mackerel for later, and skip anything that has been sitting.",
+      "sections": [
+        { "h": "Start with black cod", "p": "At $18.95 a pound it is mid-priced, and it is the most forgiving thing in the case. Roasted slowly it comes out silky. It is the fish most likely to change someone's mind." },
+        { "h": "Then the sweet shellfish", "p": "Scallops and Dungeness crab read as sweet rather than fishy. Bay shrimp too, cold in a salad." },
+        { "h": "The mild whitefish tier", "p": "Rockfish, Pacific cod and sole are clean and mild. Fried in a good batter, they are the reason fish and chips is universally liked." },
+        { "h": "The real culprit is usually age", "p": "'Fishy' is the taste of degradation, not the taste of fish. Somebody who dislikes fish has very often only ever had old fish." },
+        { "h": "And overcooking", "p": "The second culprit. Halibut at 145°F is dry and chalky and would put anyone off. The same fish at 130°F is a different food." }
+      ],
+      "takeaway": "Black cod first. 'Fishy' usually means old, not fish.",
+      "related": ["black-cod", "cooking-lean-vs-fatty-fish", "how-to-tell-if-fish-is-fresh"]
+    },
+    {
+      "slug": "seafood-on-a-budget",
+      "title": "Eating Well From the Cheap End of the Case",
+      "question": "What is the best value seafood?",
+      "answer": "The bottom of the Brandywine price list eats extremely well. Black mussels at $6.95, bay shrimp at $9.00, mahi mahi at $9.95, rockfish at $13.95 a pound. A pound of mussels feeds one person a full meal in five minutes, and rockfish is what most good fish tacos are made of.",
+      "sections": [
+        { "h": "Mussels at $6.95", "p": "The least expensive item Brandywine sells and one of the fastest. A pound, some wine, garlic and bread is a genuine dinner for under ten dollars." },
+        { "h": "Rockfish at $13.95", "p": "The cheapest fresh fillet in the case, and the one that becomes fish tacos, fish and chips, and chowder. Nothing about it is a compromise; it is simply abundant." },
+        { "h": "Bay shrimp at $9.00", "p": "Already cooked and peeled, so there is no waste and no work. Cold in a salad or a roll." },
+        { "h": "Buy the frames", "p": "Ask for fish frames and heads. They are usually free or nearly so, and twenty-five minutes later you have stock worth more than most of what you paid for." },
+        { "h": "The half-pound trick at market", "p": "The market pre-order list offers half-pound portions of the smoked line — smoked salmon at $25 instead of $50, smoked black cod at $20, smoked tuna loin at $20. It is how to eat the expensive end without buying a pound of it." }
+      ],
+      "takeaway": "Mussels, rockfish, bay shrimp — and ask for the frames.",
+      "related": ["black-mussels", "pacific-rockfish", "fish-stock-from-frames", "market-pre-order"]
+    },
+    {
+      "slug": "springfield-store",
+      "title": "What the Springfield Store Carries That the Markets Don't",
+      "question": "What is at the Brandywine retail store?",
+      "answer": "The Springfield store at 4731 Main St #1 is open daily 10am to 6pm and is the only Brandywine counter open seven days a week. It lists eight things as always carried: fresh fish, smoked fish, scallops, crab, fresh oysters, canned albacore tuna, local goodies, and fresh hot clam chowder. Fresh oysters and hot chowder are the two that do not travel to a market booth.",
+      "sections": [
+        { "h": "Seven days a week", "p": "Every market is a fixed window on a fixed day. The store is open daily, ten to six, which makes it the fallback for everything else." },
+        { "h": "Oysters and chowder", "p": "Fresh oysters need shell storage and turnover that a folding table does not provide, and hot chowder needs a kitchen. Both are store-only." },
+        { "h": "The full shelves", "p": "The tinned and pantry shelf — Ekone, Jose Gourmet, Matiz, Arroyabe — plus the jellies, spices and seasonings run to well over fifty items across the categories, more than fits in a market booth." },
+        { "h": "Where it is", "p": "Main Street in east Springfield, heading out toward Thurston and the McKenzie Highway. Roughly ten minutes from downtown Eugene." },
+        { "h": "The phone", "p": "(541) 505-9686 — worth a call before driving for a specific item, since what is in the case depends on what the boat landed." }
+      ],
+      "takeaway": "Open daily 10–6, and the only place with fresh oysters and hot chowder.",
+      "related": ["market-pre-order", "clam-chowder-notes", "pacific-oysters"]
+    },
+    {
+      "slug": "cooking-fish-for-a-crowd",
+      "title": "Cooking Fish for a Crowd Without Losing Your Nerve",
+      "question": "How do I cook fish for a dinner party?",
+      "answer": "Pick a fatty fish, cook it by a forgiving method, and use a thermometer. A whole side of chinook slow-roasted at 325°F, or black cod at the same temperature, gives you a wide margin and lets you serve everyone at once. Do not choose halibut for a party — the most expensive fish in the case is also the one with the least room for error.",
+      "sections": [
+        { "h": "Slow-roast a whole side", "p": "A full side of salmon at 325°F takes 25 to 30 minutes and comes out evenly cooked edge to edge. It also looks like an event, which is half of what a dinner party wants." },
+        { "h": "Buy fatty", "p": "Chinook at $29.95 a pound or black cod at $18.95. Both have the oil content to survive a guest arriving late." },
+        { "h": "Don't buy halibut", "p": "$38.95 a pound and a four-degree window between perfect and ruined, while you are also making conversation. It is a weeknight fish for a cook paying attention, not a party fish." },
+        { "h": "Quantity", "p": "Six to eight ounces a head, plus a little. A four-pound side feeds eight comfortably." },
+        { "h": "The cold option", "p": "Poach a side the morning of, chill it, and serve cold with lemon and herbs. Nothing to time, nothing to go wrong, and it is genuinely better cold than lukewarm." }
+      ],
+      "takeaway": "Fatty fish, low oven, thermometer. Never halibut for a crowd.",
+      "related": ["roast", "chinook-salmon", "black-cod", "internal-temperatures-for-fish"]
+    }
+  ]
+}

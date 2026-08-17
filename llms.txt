@@ -1,0 +1,138 @@
+# Brandywine Fisheries
+> Oregon coast seafood from a local fishing family. Never-frozen Oregon seafood from a hand-built boat working out of Charleston harbor. Retail store in Springfield, Oregon plus five farmers market days a week.
+
+## Facts
+- Store: 4731 Main St #1, Springfield, OR 97478 — open Open Daily 10am – 6pm
+- Phone: (541) 505-9686
+- Home port: Charleston, Oregon
+- The boat: 35-year fishing history on the Oregon coast, hand-built in Charleston, one of the core independent boats in that harbor
+- Handling: an ICE fish-hold, never frozen — which means the boat docks more often
+- Owner: has fished this specific boat for 16 years; lives up the McKenzie River, as does the staff
+
+## Market days
+- Eugene: Saturdays, 9am – 3pm — Park Blocks at 8th & Oak St., Eugene, OR
+- Eugene: Tuesdays, 10am – 3pm — Park Blocks at 8th & Oak St., Eugene, OR
+- Corvallis: Saturdays, 9am – 1pm — 1st & Jackson St., Corvallis, OR
+- Bend: Wednesdays, 11am – 3pm — Brooks Alley Way, downtown Bend, between Franklin and Brooks Street
+- Portland: Saturdays, 8:30am – 2pm — SW Park and Montgomery, Portland, OR
+
+## Species and prices
+- [Chinook Salmon](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/chinook-salmon/): $29.95 / lb. Rich and buttery, the most pronounced salmon flavor of the group. Cook to 125°F for medium-rare in the center. Oregon fishery — Troll.
+- [Coho Salmon](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/coho-salmon/): $18.95 / lb. Clean and distinctly salmon, without chinook's heaviness. Cook to 125–130°F in the center. Oregon fishery — Troll.
+- [Steelhead](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/steelhead/): Smoked, $40.00. Milder and sweeter than salmon — the reason it takes smoke so well. Cook to 125–130°F if you are cooking a fresh piece. Oregon fishery — Sold by Brandywine primarily in the smokehouse line.
+- [Pacific Halibut](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/pacific-halibut/): $38.95 / lb. Clean and mild with a faint sweetness. Cook to 130–135°F. Oregon fishery — Longline.
+- [Black Cod (Sablefish)](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/black-cod/): $18.95 / lb. Rich and buttery, closer to a fatty salmon than to a white fish. Cook to 140°F — this is the one fish that genuinely wants to go a little further. Oregon fishery — Longline and pot gear, fished deep.
+- [Lingcod](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/lingcod/): $18.95 / lb. Mild and slightly sweet. Cook to 135°F. Oregon fishery — Hook and line, jigged over rocky nearshore ground.
+- [Pacific Rockfish](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/pacific-rockfish/): $13.95 / lb. Mild and clean — the least assertive fish in the case. Cook to 135°F. Oregon fishery — Hook and line over nearshore reef.
+- [Pacific Cod](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/pacific-cod/): Ask at the counter — availability varies. Mild, clean, faintly sweet. Cook to 135°F. Oregon fishery — Hook and line and trawl gear.
+- [Sole and Flounder](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/petrale-sole/): Ask at the counter — availability varies. Delicate and sweet. Cook to 135°F. Oregon fishery — Trawl gear on soft bottom.
+- [Albacore Tuna](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/albacore-tuna/): Canned from $12.00; smoked loin $40.00 / lb, $20.00 / half lb. Mild for a tuna, clean, without the iron note of the red tunas. Cook to Sear the outside and leave the middle rare — 115–120°F in the center. Oregon fishery — Troll and jig gear.
+- [Ahi (Yellowfin) Tuna](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/ahi-tuna/): $8.95. Clean and mild, with more of a tuna edge than albacore. Cook to Rare — 115°F in the center, or served raw. Sourced, not an Oregon fishery.
+- [Swordfish](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/swordfish/): $18.95 (steaks). Mild and slightly sweet, meatier than any other fish in the case. Cook to 130–135°F. Sourced, not an Oregon fishery.
+- [Mahi Mahi](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/mahi-mahi/): $9.95. Mild and sweet. Cook to 135°F. Sourced, not an Oregon fishery.
+- [Dungeness Crab](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/dungeness-crab/): Ask at the counter — seasonal. Sweet and briny — Oregon's signature shellfish. Cook to Boiled or steamed until hot through. Oregon fishery — Baited pots set on sand and mud bottom.
+- [Bay Shrimp](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/bay-shrimp/): $9.00. Sweet and mild. Cook to Already cooked when sold — no further cooking needed. Oregon fishery — Trawl gear fitted with excluder devices.
+- [Raw Shrimp](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/raw-shrimp/): 13/15 count $19.95 · 16/20 count $14.95. Sweet and clean. Cook to Cook just until opaque and curled into a loose C. Sourced, not an Oregon fishery.
+- [Fresh Oysters](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/pacific-oysters/): Ask at the counter. Briny, cucumber-sweet, with a mineral finish that changes by growing bay. Cook to Raw on the half shell, or grilled just until the shells pop open. Oregon fishery — Farmed on Oregon's estuaries and bays.
+- [Black Mussels](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/black-mussels/): $6.95. Sweet and briny. Cook to Steam just until the shells open, three to five minutes. Oregon fishery — Rope-grown.
+- [Steamer Clams](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/steamer-clams/): $8.95 — in garlic butter, prepared. Sweet and strongly briny. Cook to Steam until the shells open, five minutes or so. Oregon fishery — Harvested from Oregon's tideflats and bays.
+- [Scallops](https://bannisterderik-tech.github.io/brandywine-fisheries/fish/scallops/): Smoked, $20.00. Sweet and rich. Cook to Sear hard and fast — the center should stay just translucent. Sourced, not an Oregon fishery.
+
+## Product catalogue
+- [Smoked Fish](https://bannisterderik-tech.github.io/brandywine-fisheries/shop/smoked-fish/): 13 items. Brandywine's own production.
+- [Fresh & Raw Seafood](https://bannisterderik-tech.github.io/brandywine-fisheries/shop/fresh-seafood/): 12 items. Brandywine's own production.
+- [Cooked & Prepared](https://bannisterderik-tech.github.io/brandywine-fisheries/shop/prepared-seafood/): 3 items. Brandywine's own production.
+- [Canned Albacore & Salmon](https://bannisterderik-tech.github.io/brandywine-fisheries/shop/canned-tuna/): 3 items. Brandywine's own production.
+- [Pantry & Tinned](https://bannisterderik-tech.github.io/brandywine-fisheries/shop/pantry/): 17 items. Resold goods from other producers.
+- [Gift Sets](https://bannisterderik-tech.github.io/brandywine-fisheries/shop/gift-sets/): 6 items. Resold goods from other producers.
+
+## Cooking methods
+- [How to grill fish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-grill-fish/): Direct high heat over open flame, best on firm fish thick enough to survive being turned.
+- [How to pan-sear fish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-pan-sear-fish/): A hot heavy pan and very little movement — the most reliable way to cook nearly anything in the case.
+- [How to roast fish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-roast-fish/): Dry oven heat — the least demanding method and the easiest one to walk away from.
+- [How to smok fish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-smoke-fish/): Low heat and wood smoke over hours — a preservation method that turned into a delicacy.
+- [How to poach fish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-poach-fish/): Gentle submersion in barely-moving liquid — the most controlled and least forgiving-of-neglect method.
+- [How to fry fish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-fry-fish/): Hot oil and a coating — the treatment most of the lean white fish in the case eventually gets.
+- [How to serving raw fish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-raw-fish/): Crudo, sashimi, ceviche and poke — where handling quality is the entire dish.
+- [How to steam fish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-steam-fish/): Moist heat in a covered pot — the method shellfish is built for.
+
+## Guides
+- [Never Frozen vs Frozen-at-Sea: What Actually Changes](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/never-frozen-vs-frozen-at-sea/): Is never-frozen fish better than frozen-at-sea fish?
+- [What 'Sushi Grade' Actually Means](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/what-sushi-grade-means/): What does sushi grade mean and is it regulated?
+- [How to Tell if Fish Is Fresh](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-tell-if-fish-is-fresh/): How can I tell if fish is fresh at the counter?
+- [Storing Fresh Fish at Home](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/storing-fish-at-home/): How long does fresh fish keep in the fridge and how should I store it?
+- [Thawing Fish Without Wrecking It](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/thawing-fish-properly/): What is the best way to thaw frozen fish?
+- [Internal Temperatures for Fish, by Species](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/internal-temperatures-for-fish/): What internal temperature should fish be cooked to?
+- [Lean Fish vs Fatty Fish: Cook Them Differently](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/cooking-lean-vs-fatty-fish/): Why does some fish dry out so much faster than others?
+- [Why Fish Sticks to the Pan](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/why-fish-sticks-to-the-pan/): How do I keep fish from sticking?
+- [Skin On or Skin Off](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/skin-on-or-skin-off/): Should I cook fish with the skin on?
+- [Pin Bones, and How to Get Them Out](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/pin-bones/): How do I remove pin bones from a salmon fillet?
+- [Portioning a Whole Fillet](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/how-to-portion-a-fillet/): How much fish per person, and how do I cut a side into portions?
+- [Stock from Frames and Heads](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/fish-stock-from-frames/): Can I make stock from fish bones?
+- [Buying and Keeping Live Shellfish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/buying-shellfish-alive/): How do I know if oysters, mussels and clams are still alive?
+- [Shucking Oysters Without Hurting Yourself](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/shucking-oysters/): How do I shuck an oyster?
+- [Cleaning and Picking a Dungeness Crab](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/cleaning-dungeness-crab/): How do I clean a whole Dungeness crab?
+- [Why the Oregon Crab Season Opens Late Most Years](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/oregon-dungeness-season/): When does Oregon Dungeness crab season open?
+- [Biotoxin Closures, and Why They Are Good News](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/domoic-acid-and-closures/): What is domoic acid and why do shellfish areas close?
+- [Charleston, Oregon: A Working Harbor](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/charleston-oregon-port/): Where is Charleston, Oregon and what is landed there?
+- [What an Ice Fish-Hold Is](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/ice-fish-holds/): What does it mean when a boat uses an ice hold instead of a freezer?
+- [Trolling vs Trawling: Not the Same Word](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/trolling-vs-trawling/): What is the difference between trolling and trawling?
+- [Bycatch, and What Gear Has to Do With It](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/bycatch-and-gear/): What is bycatch and which fishing methods have the least?
+- [Wild vs Farmed Salmon](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/wild-vs-farmed-salmon/): What is the difference between wild and farmed salmon?
+- [Omega-3s and Mercury, Honestly](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/omega-3-and-mercury/): Which fish are highest in omega-3s and which have the most mercury?
+- [How Market Pre-Ordering Works](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/market-pre-order/): Can I reserve fish before a farmers market?
+- [Buying Fish at a Farmers Market](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/farmers-market-etiquette/): How do I buy fish at a farmers market and get it home safely?
+- [Getting Fish Home in Good Shape](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/transporting-fish-home/): How do I transport fresh fish home from the coast or a market?
+- [Smoking Fish at Home](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/smoking-fish-at-home/): How do I smoke salmon at home?
+- [What Makes Good Clam Chowder](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/clam-chowder-notes/): How do I make good clam chowder?
+- [How to Read a Fish Counter](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/reading-a-fish-counter/): What should I look for at a seafood counter?
+- [Where to Start if You Think You Don't Like Fish](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/seafood-for-people-who-dont-like-fish/): What seafood should I try if I don't like fish?
+- [Eating Well From the Cheap End of the Case](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/seafood-on-a-budget/): What is the best value seafood?
+- [What the Springfield Store Carries That the Markets Don't](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/springfield-store/): What is at the Brandywine retail store?
+- [Cooking Fish for a Crowd Without Losing Your Nerve](https://bannisterderik-tech.github.io/brandywine-fisheries/guides/cooking-fish-for-a-crowd/): How do I cook fish for a dinner party?
+
+## Seasons
+- [January](https://bannisterderik-tech.github.io/brandywine-fisheries/season/january/): Crab weather. The quietest month at the markets and one of the best at the counter.
+- [February](https://bannisterderik-tech.github.io/brandywine-fisheries/season/february/): Deep winter. Crab, groundfish, and the shortest market list of the year.
+- [March](https://bannisterderik-tech.github.io/brandywine-fisheries/season/march/): The turn. Halibut season typically opens and the year starts moving.
+- [April](https://bannisterderik-tech.github.io/brandywine-fisheries/season/april/): Pink shrimp season opens and the Corvallis market comes back.
+- [May](https://bannisterderik-tech.github.io/brandywine-fisheries/season/may/): Salmon openings begin. The busiest stretch of the year starts here.
+- [June](https://bannisterderik-tech.github.io/brandywine-fisheries/season/june/): Full swing. Salmon, halibut, shrimp, and every market open.
+- [July](https://bannisterderik-tech.github.io/brandywine-fisheries/season/july/): Albacore arrive off the coast. Peak season, peak markets.
+- [August](https://bannisterderik-tech.github.io/brandywine-fisheries/season/august/): Coho month. The crab season closes mid-month.
+- [September](https://bannisterderik-tech.github.io/brandywine-fisheries/season/september/): The best month to buy. Salmon, albacore and shrimp all at once.
+- [October](https://bannisterderik-tech.github.io/brandywine-fisheries/season/october/): The season winds down. Shrimp closes, the markets start folding.
+- [November](https://bannisterderik-tech.github.io/brandywine-fisheries/season/november/): Groundfish takes over and the coast waits on the crab tests.
+- [December](https://bannisterderik-tech.github.io/brandywine-fisheries/season/december/): Crab season opens — on paper December 1, in practice usually later.
+
+## Comparisons
+- [Chinook Salmon vs Coho Salmon](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/chinook-salmon-vs-coho-salmon/)
+- [Black Cod (Sablefish) vs Pacific Halibut](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/black-cod-vs-pacific-halibut/)
+- [Pacific Halibut vs Lingcod](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/pacific-halibut-vs-lingcod/)
+- [Lingcod vs Pacific Rockfish](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/lingcod-vs-pacific-rockfish/)
+- [Albacore Tuna vs Ahi (Yellowfin) Tuna](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/albacore-tuna-vs-ahi-tuna/)
+- [Pacific Rockfish vs Pacific Cod](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/pacific-rockfish-vs-pacific-cod/)
+- [Chinook Salmon vs Steelhead](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/chinook-salmon-vs-steelhead/)
+- [Bay Shrimp vs Raw Shrimp](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/bay-shrimp-vs-raw-shrimp/)
+- [Black Mussels vs Steamer Clams](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/black-mussels-vs-steamer-clams/)
+- [Fresh Oysters vs Black Mussels](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/pacific-oysters-vs-black-mussels/)
+- [Swordfish vs Mahi Mahi](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/swordfish-vs-mahi-mahi/)
+- [Black Cod (Sablefish) vs Chinook Salmon](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/black-cod-vs-chinook-salmon/)
+- [Sole and Flounder vs Pacific Rockfish](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/petrale-sole-vs-pacific-rockfish/)
+- [Dungeness Crab vs Raw Shrimp](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/dungeness-crab-vs-raw-shrimp/)
+- [Scallops vs Raw Shrimp](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/scallops-vs-raw-shrimp/)
+- [Pacific Halibut vs Pacific Cod](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/pacific-halibut-vs-pacific-cod/)
+- [Albacore Tuna vs Chinook Salmon](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/albacore-tuna-vs-chinook-salmon/)
+- [Lingcod vs Mahi Mahi](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/lingcod-vs-mahi-mahi/)
+- [Coho Salmon vs Black Cod (Sablefish)](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/coho-salmon-vs-black-cod/)
+- [Coho Salmon vs Lingcod](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/coho-salmon-vs-lingcod/)
+- [Steelhead vs Black Cod (Sablefish)](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/steelhead-vs-black-cod/)
+- [Pacific Rockfish vs Mahi Mahi](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/pacific-rockfish-vs-mahi-mahi/)
+- [Chinook Salmon vs Pacific Halibut](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/chinook-salmon-vs-pacific-halibut/)
+- [Albacore Tuna vs Swordfish](https://bannisterderik-tech.github.io/brandywine-fisheries/compare/albacore-tuna-vs-swordfish/)
+
+## Notes on accuracy
+- Commercial fishery seasons are set annually and shift year to year. All season information is typical, not guaranteed.
+- Prices are Brandywine's published prices and change.
+- Species not landed by the Oregon boat (ahi, swordfish, mahi mahi, large raw shrimp, scallops) are labelled as sourced on every page.
+- This site carries no reviews or testimonials, and no photographs of the business, its crew, its boat or its work.

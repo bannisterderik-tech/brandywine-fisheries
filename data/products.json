@@ -1,0 +1,108 @@
+{
+  "_source": "Every product name and price below is taken verbatim from the Brandywine Fisheries online store (brandywinefisheries.com/shop), fetched 2026-08-17. Prices change — the site notes that the counter is authoritative. Third-party brands (Ekone, Jose Gourmet, Matiz, Arroyabe, Season, California Girl, St. Ours, Rose City Pepperheads, Pacific Seafood) are goods Brandywine resells, not products they make.",
+
+  "categories": [
+    {
+      "slug": "smoked-fish",
+      "name": "Smoked Fish",
+      "blurb": "Brandywine's own smokehouse line — applewood and alderwood. Thirteen items, and the part of the case that travels best.",
+      "own_production": true,
+      "items": [
+        { "name": "Smoked Salmon", "price": "$50.00", "half": "$25.00 / half lb", "species": "chinook-salmon", "note": "The flagship of the smoked line and the most expensive item in it by weight." },
+        { "name": "Smoked Peppered Salmon", "price": "$50.00", "half": "$25.00 / half lb", "species": "chinook-salmon", "note": "Same cure, heavy cracked pepper crust." },
+        { "name": "Smoked Steelhead", "price": "$40.00", "species": "steelhead", "note": "Milder and sweeter than the salmon." },
+        { "name": "Smoked Peppered Steelhead", "price": "$40.00", "species": "steelhead", "note": "The peppered treatment on the sweeter fish." },
+        { "name": "Smoked Black Cod (Sablefish)", "price": "$40.00", "half": "$20.00 / half lb", "species": "black-cod", "note": "The highest-oil fish in the case, which makes it arguably the best candidate for smoke of anything here." },
+        { "name": "Smoked Tuna Loin", "price": "$40.00", "half": "$20.00 / half lb", "species": "albacore-tuna", "note": "Albacore loin, smoked whole." },
+        { "name": "Smoked Teriyaki Lingcod", "price": "$40.00", "species": "lingcod", "note": "A lean fish that takes a glaze rather than a dry cure." },
+        { "name": "Smoked Teriyaki Rockfish", "price": "$25.00", "species": "pacific-rockfish", "note": "The least expensive smoked fillet in the line." },
+        { "name": "Smoked Salmon Collars and Wings", "price": "$40.00", "species": "chinook-salmon", "note": "The collar is the fattiest cut on the fish and the one most cooks never see." },
+        { "name": "Smoked Jalapeno Salmon Sausage Links", "price": "$36.00 / dozen", "single": "$3.00 each", "species": "chinook-salmon", "note": "Sold by the dozen online, individually at market." },
+        { "name": "Smoked Oysters", "price": "$15.00", "species": "pacific-oysters", "note": "The least expensive item in the smoked line." },
+        { "name": "Smoked Scallops", "price": "$20.00", "species": "scallops", "note": "" },
+        { "name": "Smoked Seacuterie Board", "price": "$229.95", "species": null, "note": "The largest single item Brandywine sells — a full board of the smoked line." }
+      ]
+    },
+    {
+      "slug": "fresh-seafood",
+      "name": "Fresh & Raw Seafood",
+      "blurb": "Never frozen. Iced on the boat from the point of catch, which is the whole argument for buying it here.",
+      "own_production": true,
+      "items": [
+        { "name": "Halibut", "price": "$38.95 / lb", "species": "pacific-halibut", "note": "The most expensive fish by weight." },
+        { "name": "Chinook Salmon", "price": "$29.95 / lb", "half": "$14.95 / half lb", "species": "chinook-salmon", "note": "" },
+        { "name": "Coho Salmon", "price": "$18.95 / lb", "species": "coho-salmon", "note": "" },
+        { "name": "Black Cod (Sablefish)", "price": "$18.95 / lb", "species": "black-cod", "note": "" },
+        { "name": "Lingcod", "price": "$18.95 / lb", "species": "lingcod", "note": "" },
+        { "name": "Swordfish Steaks", "price": "$18.95", "species": "swordfish", "note": "Sourced, not Oregon-landed." },
+        { "name": "Pacific Rockfish", "price": "$13.95 / lb", "market": "$12.95 / lb at market pre-order", "species": "pacific-rockfish", "note": "The least expensive fresh fish." },
+        { "name": "Mahi Mahi", "price": "$9.95", "species": "mahi-mahi", "note": "Sourced, not Oregon-landed." },
+        { "name": "Ahi (Yellowfin) Tuna", "price": "$8.95", "species": "ahi-tuna", "note": "Sourced, not Oregon-landed." },
+        { "name": "13/15 Raw Shrimp", "price": "$19.95", "species": "raw-shrimp", "note": "Thirteen to fifteen per pound — the larger of the two counts." },
+        { "name": "16/20 Raw Shrimp", "price": "$14.95", "species": "raw-shrimp", "note": "" },
+        { "name": "Bay Shrimp", "price": "$9.00", "species": "bay-shrimp", "note": "Oregon pink shrimp, cooked and peeled." }
+      ]
+    },
+    {
+      "slug": "prepared-seafood",
+      "name": "Cooked & Prepared",
+      "blurb": "Three items, all ready to heat.",
+      "own_production": true,
+      "items": [
+        { "name": "Crab Cakes", "price": "$9.95", "species": "dungeness-crab", "note": "" },
+        { "name": "Steamer Clams in Garlic Butter", "price": "$8.95", "species": "steamer-clams", "note": "" },
+        { "name": "Black Mussels", "price": "$6.95", "species": "black-mussels", "note": "The least expensive item Brandywine sells." }
+      ]
+    },
+    {
+      "slug": "canned-tuna",
+      "name": "Canned Albacore & Salmon",
+      "blurb": "Brandywine's own canned line — the item most people know the brand for.",
+      "own_production": true,
+      "items": [
+        { "name": "All Natural Gourmet Albacore Tuna", "price": "$12.00 – $330.00", "species": "albacore-tuna", "note": "Single tin up to full case pricing." },
+        { "name": "Alderwood Smoked Gourmet Albacore Tuna", "price": "$15.00 – $330.00", "species": "albacore-tuna", "note": "Alder is the traditional Pacific Northwest smoking wood." },
+        { "name": "Jalapeno Gourmet Albacore Tuna", "price": "$13.00 – $286.00", "species": "albacore-tuna", "note": "" }
+      ]
+    },
+    {
+      "slug": "pantry",
+      "name": "Pantry & Tinned",
+      "blurb": "The imported tinned shelf — Spanish, Portuguese and Pacific Northwest producers Brandywine resells alongside their own canning.",
+      "own_production": false,
+      "items": [
+        { "name": "Ekone Original Smoked Oysters", "price": "$17.95", "brand": "Ekone", "note": "Ekone is a Willapa Bay, Washington oyster farm." },
+        { "name": "Ekone Habanero Smoked Oysters", "price": "$17.95", "brand": "Ekone", "note": "" },
+        { "name": "Ekone Lemon Pepper Smoked Oysters", "price": "$17.95", "brand": "Ekone", "note": "" },
+        { "name": "Ekone Smoked Mussels", "price": "$15.95", "brand": "Ekone", "note": "" },
+        { "name": "Jose Gourmet Mackerel Fillets in Olive Oil", "price": "$14.95", "brand": "Jose Gourmet", "note": "Portuguese." },
+        { "name": "Jose Gourmet Octopus in Olive Oil with Garlic", "price": "$24.95", "brand": "Jose Gourmet", "note": "" },
+        { "name": "Jose Gourmet Razor Shells in Brine", "price": "$19.95", "brand": "Jose Gourmet", "note": "" },
+        { "name": "Jose Gourmet Trout Pate with Port Wine", "price": "$8.95", "brand": "Jose Gourmet", "note": "" },
+        { "name": "Matiz Mussels in Olive Oil & Vinegar", "price": "$10.95", "brand": "Matiz", "note": "Spanish." },
+        { "name": "Matiz Sardines with Lemon Packed in Olive Oil", "price": "$5.95", "brand": "Matiz", "note": "" },
+        { "name": "Matiz Wild Small Sardines with Sweet Piquillo Peppers", "price": "$6.95", "brand": "Matiz", "note": "" },
+        { "name": "Arroyabe Wild Caught Anchovies in Olive Oil", "price": "$7.95", "brand": "Arroyabe", "note": "Spanish." },
+        { "name": "Season Brand Sardines in 100% Olive Oil", "price": "$4.75", "brand": "Season", "note": "The least expensive tin on the shelf." },
+        { "name": "California Girl Salted Whole Baby Clams in Water", "price": "$6.95", "brand": "California Girl", "note": "" },
+        { "name": "Chopped Ocean Quahog Clams", "price": "$25.95", "brand": null, "note": "" },
+        { "name": "Pacific Seafood Premium Ocean Quahog Clam Juice", "price": "$9.95", "brand": "Pacific Seafood", "note": "" },
+        { "name": "St. Ours Clam Broth", "price": "$55.95", "brand": "St. Ours", "note": "" }
+      ]
+    },
+    {
+      "slug": "gift-sets",
+      "name": "Gift Sets",
+      "blurb": "Six items, from an $11.95 jelly trio to the $229.95 board.",
+      "own_production": false,
+      "items": [
+        { "name": "Brandywine Boat Gift Set", "price": "$70.00", "note": "Brandywine's own gift set." },
+        { "name": "Rose City Pepperheads Mini BBQ Trio", "price": "$11.95", "brand": "Rose City Pepperheads", "note": "" },
+        { "name": "Rose City Pepperheads Mini Berry Trio", "price": "$11.95", "brand": "Rose City Pepperheads", "note": "" },
+        { "name": "Rose City Pepperheads Mini Chef's Trio", "price": "$11.95", "brand": "Rose City Pepperheads", "note": "" },
+        { "name": "Rose City Pepperheads Mini Triple Threat", "price": "$11.95", "brand": "Rose City Pepperheads", "note": "" },
+        { "name": "Rose City Pepperheads Mini Tropical Trio", "price": "$11.95", "brand": "Rose City Pepperheads", "note": "" }
+      ]
+    }
+  ]
+}

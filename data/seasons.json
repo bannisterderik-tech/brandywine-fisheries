@@ -1,0 +1,116 @@
+{
+  "_note": "Month pages describe typical Oregon fishery patterns and typical market status. Commercial seasons are set annually and shift — every month page says so and points people to the counter for what is actually in the case today. Nothing here promises a specific fish on a specific date.",
+
+  "disclaimer": "Seasons shift every year. Openings depend on stock assessments, quota, weather and biotoxin testing, and a season that ran in June last year may not this year. Treat this as the shape of the year, not a schedule — and call the store at (541) 505-9686 to find out what actually landed this week.",
+
+  "months": [
+    {
+      "n": 1, "slug": "january", "name": "January",
+      "headline": "Crab weather. The quietest month at the markets and one of the best at the counter.",
+      "landing": ["dungeness-crab", "black-cod", "pacific-rockfish", "lingcod", "pacific-cod", "petrale-sole"],
+      "note": "Dungeness season is typically underway by January, and winter crab is what most of the coast is working on. Groundfish — black cod, rockfish, cod, sole — continues through the cold months.",
+      "markets": "Thin. The Eugene Saturday market and Portland PSU run year-round; Corvallis, Bend and the Eugene Tuesday market are out of season. The Springfield store is open daily, as always.",
+      "cook": "Chowder and slow-roasting weather. Hot clam chowder is at the Springfield counter by the cup.",
+      "buy": "Cold-water oysters are at their firmest and best in the dead of winter."
+    },
+    {
+      "n": 2, "slug": "february", "name": "February",
+      "headline": "Deep winter. Crab, groundfish, and the shortest market list of the year.",
+      "landing": ["dungeness-crab", "black-cod", "pacific-rockfish", "pacific-cod", "petrale-sole", "pacific-oysters"],
+      "note": "The crab fishery is usually in full swing. Petrale sole is at its best in the cold months, and the deep-water black cod fishery runs regardless of season.",
+      "markets": "Eugene Saturday and Portland PSU only. The seasonal markets are still weeks away.",
+      "cook": "The month for slow-roasted black cod and anything that involves an oven being on for a while.",
+      "buy": "Oysters. Firm, cold, and at their peak — and store-only, since they do not travel to booths."
+    },
+    {
+      "n": 3, "slug": "march", "name": "March",
+      "headline": "The turn. Halibut season typically opens and the year starts moving.",
+      "landing": ["pacific-halibut", "dungeness-crab", "black-cod", "pacific-rockfish", "lingcod", "petrale-sole"],
+      "note": "The directed Pacific halibut season is set annually by the International Pacific Halibut Commission and typically opens in spring. Crab continues; nearshore lingcod picks up as weather allows.",
+      "markets": "Still the two year-round markets. Corvallis opens mid-April, so the wait is nearly over.",
+      "cook": "First halibut of the year deserves to be cooked plainly — seared, thermometer in, nothing clever.",
+      "buy": "Watch for the first halibut. At $38.95 a pound it is the most expensive thing in the case and the arrival is an event."
+    },
+    {
+      "n": 4, "slug": "april", "name": "April",
+      "headline": "Pink shrimp season opens and the Corvallis market comes back.",
+      "landing": ["bay-shrimp", "pacific-halibut", "dungeness-crab", "lingcod", "pacific-rockfish", "black-cod"],
+      "note": "The Oregon pink shrimp season typically runs April through October — this is the month bay shrimp come back. Nearshore lingcod and rockfish fishing improves with the weather.",
+      "markets": "Corvallis opens mid-April on the riverfront, Saturdays 9am–1pm. The valley market season begins.",
+      "cook": "Cold bay shrimp season starts here. They arrive cooked and peeled — do not heat them.",
+      "buy": "Bay shrimp at $9.00 are the cheapest shellfish on the list and the first real sign of the warm half of the year."
+    },
+    {
+      "n": 5, "slug": "may", "name": "May",
+      "headline": "Salmon openings begin. The busiest stretch of the year starts here.",
+      "landing": ["chinook-salmon", "pacific-halibut", "bay-shrimp", "lingcod", "pacific-rockfish", "dungeness-crab"],
+      "note": "Ocean troll salmon openings typically begin in spring, with chinook first. Openings are set annually by the Pacific Fishery Management Council and vary considerably year to year.",
+      "markets": "Corvallis running, and the Eugene Tuesday midweek market typically returns for the season.",
+      "cook": "Grilling season. The first chinook of the year off a hot grate, skin-side down, is the argument for the whole operation.",
+      "buy": "Chinook at $29.95 a pound. First of the season is worth paying for."
+    },
+    {
+      "n": 6, "slug": "june", "name": "June",
+      "headline": "Full swing. Salmon, halibut, shrimp, and every market open.",
+      "landing": ["chinook-salmon", "pacific-halibut", "bay-shrimp", "lingcod", "pacific-rockfish", "dungeness-crab"],
+      "note": "Chinook openings continue; the crab season runs toward its August close. Nearshore groundfish is at its most accessible.",
+      "markets": "Everything running — Eugene Saturday and Tuesday, Corvallis, Bend, Portland PSU.",
+      "cook": "The valley turns dry around now and stays that way into September. Outdoor cooking from here on.",
+      "buy": "The widest selection of the year begins. If you have been meaning to try something unfamiliar, this is the month."
+    },
+    {
+      "n": 7, "slug": "july", "name": "July",
+      "headline": "Albacore arrive off the coast. Peak season, peak markets.",
+      "landing": ["albacore-tuna", "chinook-salmon", "coho-salmon", "pacific-halibut", "bay-shrimp", "lingcod"],
+      "note": "Albacore typically move into range off Oregon in the warm-water months, roughly July through October, and are taken on troll and jig gear. Salmon openings continue.",
+      "markets": "All five market days running at full size.",
+      "cook": "Sear albacore rare and slice it thin. Cooking it through turns it dry and grainy — that is what the canned version is for.",
+      "buy": "Fresh albacore loin, and the canned line that comes from it — All Natural at $12, Alderwood Smoked at $15, Jalapeño at $13."
+    },
+    {
+      "n": 8, "slug": "august", "name": "August",
+      "headline": "Coho month. The crab season closes mid-month.",
+      "landing": ["coho-salmon", "albacore-tuna", "chinook-salmon", "pacific-halibut", "bay-shrimp", "pacific-rockfish"],
+      "note": "Coho openings are typically concentrated in late summer. The Oregon commercial Dungeness season traditionally closes in mid-August, ending the crab year.",
+      "markets": "All markets running. Bring a cooler — a hot car in August undoes a boat's careful work in an hour.",
+      "cook": "Coho is leaner than chinook and cooks faster. Hot and short, and take it off early.",
+      "buy": "Coho at $18.95 against chinook at $29.95 — the same fishery and the same handling for two-thirds of the price."
+    },
+    {
+      "n": 9, "slug": "september", "name": "September",
+      "headline": "The best month to buy. Salmon, albacore and shrimp all at once.",
+      "landing": ["coho-salmon", "chinook-salmon", "albacore-tuna", "bay-shrimp", "pacific-rockfish", "lingcod"],
+      "note": "Late salmon openings overlap with the albacore run and the tail of the shrimp season. More species are typically available simultaneously in September than in any other month.",
+      "markets": "All running, with the outdoor season heading toward its close.",
+      "cook": "The last reliably dry weeks of the year in the valley. Grill while it lasts.",
+      "buy": "If you smoke fish at home, this is the month to buy for it — salmon and albacore both available and both ideal."
+    },
+    {
+      "n": 10, "slug": "october", "name": "October",
+      "headline": "The season winds down. Shrimp closes, the markets start folding.",
+      "landing": ["albacore-tuna", "pacific-rockfish", "lingcod", "black-cod", "bay-shrimp", "pacific-cod"],
+      "note": "The Oregon pink shrimp season typically closes at the end of October. Albacore taper off as the water cools. Groundfish carries the case into winter.",
+      "markets": "Corvallis runs into late November; Bend and the Eugene Tuesday market wind down. Eugene Saturday and Portland PSU carry on year-round.",
+      "cook": "Back indoors. Roasting and frying weather, and the start of chowder season.",
+      "buy": "Last of the bay shrimp until April. The canned albacore is the way to keep the summer around."
+    },
+    {
+      "n": 11, "slug": "november", "name": "November",
+      "headline": "Groundfish takes over and the coast waits on the crab tests.",
+      "landing": ["black-cod", "pacific-rockfish", "lingcod", "pacific-cod", "petrale-sole", "pacific-oysters"],
+      "note": "The Dungeness season is scheduled to open December 1 and in most recent years has been delayed while meat-fill and biotoxin testing is completed. November is the waiting month.",
+      "markets": "Corvallis closes in late November. Eugene Saturday and Portland PSU continue through winter.",
+      "cook": "The wet half of the year starts here and runs to April. Oven on.",
+      "buy": "Black cod. It is available all year, it is the most forgiving fish in the case, and it is at its best in cold weather cooking."
+    },
+    {
+      "n": 12, "slug": "december", "name": "December",
+      "headline": "Crab season opens — on paper December 1, in practice usually later.",
+      "landing": ["dungeness-crab", "black-cod", "pacific-rockfish", "petrale-sole", "pacific-cod", "pacific-oysters"],
+      "note": "The scheduled opening is December 1, and delays are common. The season is held back until testing shows the crab have filled with meat and biotoxin levels are safe — the delay is the quality control, not a failure of it.",
+      "markets": "Eugene Saturday and Portland PSU only. The Springfield store is open daily including through the holidays.",
+      "cook": "Cold cracked crab with bread and butter is the traditional Oregon Christmas table and needs no improvement.",
+      "buy": "The Smoked Seacuterie Board at $229.95 and the Brandywine Boat Gift Set at $70 are the season's gift items."
+    }
+  ]
+}

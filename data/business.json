@@ -1,0 +1,70 @@
+{
+  "_source": "Every field below is taken verbatim or near-verbatim from brandywinefisheries.com (About Us, Retail Store, Farmer's Markets pages) fetched 2026-08-17. Nothing here is inferred, estimated, or invented. Fields the site does not state are recorded as null with a note, NOT filled in.",
+
+  "name": "Brandywine Fisheries",
+  "legal_name": "Brandywine Fisheries, LLC",
+  "tagline": "Oregon coast seafood from a local fishing family",
+  "site": "https://bannisterderik-tech.github.io/brandywine-fisheries",
+  "real_domain": "brandywinefisheries.com",
+
+  "phone": "(541) 505-9686",
+  "phone_source": "retail-store page",
+  "email": null,
+  "email_note": "Their site uses a Contact Form 7 form with no published address. Contact page links to the form only.",
+
+  "store": {
+    "street": "4731 Main St #1",
+    "city": "Springfield",
+    "state": "OR",
+    "zip": "97478",
+    "hours": "Open Daily 10am – 6pm",
+    "hours_structured": "Mo-Su 10:00-18:00",
+    "geo": { "lat": 44.0462, "lng": -122.9536 },
+    "geo_note": "Approximate coordinates for the 4731 Main St, Springfield address block. Replace with an exact pin from their Google Business Profile before this goes live on their domain.",
+    "carries": [
+      "Fresh fish",
+      "Smoked fish",
+      "Scallops",
+      "Crab",
+      "Fresh oysters",
+      "Canned albacore tuna",
+      "Local goodies",
+      "Fresh hot clam chowder"
+    ]
+  },
+
+  "colors": {
+    "primary": "#002647",
+    "accent": "#f1c900",
+    "accent_alt": "#ffcb00",
+    "_source": "Extracted from the live stylesheet on brandywinefisheries.com — these are their actual brand colors, not a chosen palette."
+  },
+  "logo_file": "assets/logo.png",
+  "logo_source": "https://brandywinefisheries.com/wp-content/uploads/2022/05/cropped-Asset-1anchor-1.png",
+
+  "mission": "To bring the finest seafood to our customers by implementing standards that are far above the requirements of any regulatory system. Our tireless efforts to properly handle, care for, process, and deliver our products while they are truly fresh is a distinctive standard employed by our company.",
+
+  "facts": {
+    "vessel_history_years": 35,
+    "vessel_history_claim": "The Brandywine fishing vessel has a long 35-year fishing history on the Oregon coast.",
+    "hand_built": "This boat was hand-built, in Charleston, Oregon.",
+    "harbor": "It remains one of the core, independent boats in Charleston harbor.",
+    "ice_hold": "Our boat utilizes an \"ICE\" fish-hold that keeps our fish fresh from the point of catch to the time the boat docks.",
+    "never_frozen": "Not freezing our catch means we dock more often and must employ various tactics that ensure we don't bruise the fish while on-board the boat.",
+    "sushi_grade": "Consistently a fresher product, and able to provide our customers with the finest \"Sushi Grade\" products around.",
+    "owner_years_on_boat": 16,
+    "owner_claim": "The owner of Brandywine Fisheries lives up the McKenzie river, (as does the rest of our staff) and has been fishing this specific boat for the last 16-years.",
+    "bycatch": "Simply put, our fishing methods ensure that we safely catch the product we fish for. We care about the sustainable nursery of the Wild-Pacific Ocean and utilize those methods that allow us to maintain that nursery, as well as, our own integrity.",
+    "personal_service": "No matter how big we might be, our customers are the reason."
+  },
+
+  "_deliberately_omitted": {
+    "founder_name": "Third-party sources (LinkedIn, Daily Emerald) name a Captain Bill Whitlock as founder. Their own site does NOT. Left off the site entirely — needs owner confirmation before publishing a person's name.",
+    "founding_year": "Third-party sources say 2010. Their own site does not state a founding year. Left off.",
+    "years_in_business": "Not claimed anywhere on their site. Left off.",
+    "market_count_claim": "A third-party article mentions 'up to 13 farmers markets a week'. Their own markets page lists 4. Only the 4 they publish are used.",
+    "roseburg_store": "Yelp lists a Brandywine Fisheries at 1771 W Harvard Ave, Roseburg. Their own site lists only Springfield. Not published as a location — needs confirmation.",
+    "reviews": "No reviews, ratings, or testimonials appear anywhere on this site. None were available to verify.",
+    "crew_photos": "No generated images of crew, boats, storefronts, or customers are used anywhere. See imagery notes."
+  }
+}

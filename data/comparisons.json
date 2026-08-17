@@ -1,0 +1,150 @@
+{
+  "_note": "Each comparison names two species from species.json. The generator builds the specification table automatically from that file, so prices, fat, texture and method never drift out of sync with the species pages. Only the editorial judgement — the verdict and the two 'pick this one when' cases — is written here.",
+
+  "comparisons": [
+    {
+      "a": "chinook-salmon", "b": "coho-salmon",
+      "verdict": "The same fishery, the same boat, the same handling — and an $11 per pound gap. Chinook is richer and more forgiving; coho is cleaner-tasting and cooks faster. Most of the time the honest answer is that coho is the better buy and chinook is the better occasion.",
+      "when_a": "You are cooking for people who will notice, you want the fattier fish for the grill or the smoker, or you are slow-roasting a whole side.",
+      "when_b": "Weeknight salmon, or anything where a sauce or a glaze is doing part of the work. You will not miss the extra $11 a pound."
+    },
+    {
+      "a": "black-cod", "b": "pacific-halibut",
+      "verdict": "The two ends of the white-fish spectrum. Black cod is the fattiest fish in the case; halibut is among the leanest. Halibut costs more than twice as much and is dramatically less forgiving. If a fish has to impress people, black cod is the safer bet at less than half the price.",
+      "when_a": "You want silky and rich, you are smoking or slow-roasting, or you are nervous about timing.",
+      "when_b": "You want firm, meaty, clean white fish and you own a thermometer. Halibut done right is worth its price; halibut done wrong is $38.95 a pound of chalk."
+    },
+    {
+      "a": "pacific-halibut", "b": "lingcod",
+      "verdict": "Lingcod is the working substitute for halibut and costs less than half as much. Both are lean, firm and white with a big flake. Halibut is denser and finer; lingcod is a little coarser and slightly sweeter. In a taco, in a batter, or under a sauce, almost nobody can tell.",
+      "when_a": "Halibut is the centerpiece and it is being served plainly, where the finer texture actually shows.",
+      "when_b": "Almost every other time — especially fried, grilled, or in tacos. It is the same job for $20 less a pound."
+    },
+    {
+      "a": "lingcod", "b": "pacific-rockfish",
+      "verdict": "Both are nearshore hook-and-line whitefish and they are constantly substituted for each other. Lingcod is firmer with a bigger flake and holds up on a grill; rockfish is more delicate and cooks faster. Rockfish is $5 a pound cheaper.",
+      "when_a": "It is going on a grill or into anything where the fish has to hold together.",
+      "when_b": "It is going into a pan, a fryer, or a taco. Rockfish is the cheaper, faster, everyday version."
+    },
+    {
+      "a": "albacore-tuna", "b": "ahi-tuna",
+      "verdict": "Both are tuna and they behave nothing alike. Albacore is pale, fattier and milder, and it is an Oregon troll fishery. Ahi is deep red, leaner, more assertive, and is sourced rather than landed here. Albacore wants to stay pink; ahi wants to stay red.",
+      "when_a": "You want the Oregon fish, you are canning or smoking, or you want the milder tuna.",
+      "when_b": "You want classic red tuna for searing, poke, or sashimi, and the deep color is part of the dish."
+    },
+    {
+      "a": "pacific-rockfish", "b": "pacific-cod",
+      "verdict": "Nearly interchangeable — both lean, white, mild and inexpensive. Cod has a larger, more tender flake that falls apart more easily; rockfish holds together slightly better. Cod is the traditional fish-and-chips fish, rockfish the traditional taco fish, and either does both.",
+      "when_a": "It needs to survive being turned, or it is going on a grill at all.",
+      "when_b": "It is being battered and fried, where that big tender flake inside a crisp shell is the entire point."
+    },
+    {
+      "a": "chinook-salmon", "b": "steelhead",
+      "verdict": "Closely related fish with a real difference in intensity. Chinook is richer and more pronounced; steelhead is milder, sweeter and finer-flaked, which is exactly why it smokes so well. Brandywine sells steelhead chiefly out of the smokehouse, at $40 against $50 for the smoked salmon.",
+      "when_a": "You want full salmon flavor, or you are cooking a fresh fillet as the centerpiece.",
+      "when_b": "You want smoked fish on a board, or you are feeding people who find salmon too strong. $10 a pound cheaper smoked, and milder."
+    },
+    {
+      "a": "bay-shrimp", "b": "raw-shrimp",
+      "verdict": "Different animals for different jobs. Bay shrimp are small Oregon pink shrimp, sold cooked and peeled at $9.00 — you fold them into things cold. The 13/15 and 16/20 raw shrimp are large, sourced, and meant to be cooked. Heating bay shrimp is almost always a mistake.",
+      "when_a": "Salads, rolls, cocktails, anything cold. No cooking, no peeling, no waste.",
+      "when_b": "Grilling, searing, skewers — anywhere you want a large shrimp with a snap to it."
+    },
+    {
+      "a": "black-mussels", "b": "steamer-clams",
+      "verdict": "The two cheapest things in the case and the two fastest. Mussels at $6.95 are milder and cook in three to five minutes; steamer clams at $8.95 come prepared in garlic butter and are sweeter and more strongly briny. Both are dinner in under ten minutes.",
+      "when_a": "You want to build the dish yourself — your own wine, garlic, cream, whatever. And you want the cheapest possible route to a real meal.",
+      "when_b": "You want it done. They arrive in garlic butter; the job is heat and bread."
+    },
+    {
+      "a": "pacific-oysters", "b": "black-mussels",
+      "verdict": "Oysters are an event and mussels are a meal. Oysters are eaten raw by the half dozen and are store-only — they do not travel to the market booths. Mussels are cooked by the pound, cost less than anything else Brandywine sells, and feed people.",
+      "when_a": "You want the raw bar experience, and you are willing to drive to the Springfield store for it.",
+      "when_b": "You want dinner for four for under thirty dollars, on the table in ten minutes."
+    },
+    {
+      "a": "swordfish", "b": "mahi-mahi",
+      "verdict": "Brandywine files these together in one recipe category, and the logic holds: both are firm, both grill well, and neither is an Oregon fishery. Swordfish is much denser and meatier at $18.95; mahi is leaner and lighter at $9.95, and takes a marinade better.",
+      "when_a": "You want a genuine fish steak with real density — the closest thing to a beef steak on the list.",
+      "when_b": "You want firm grilling fish at half the price, and you are bringing a sauce or a marinade anyway."
+    },
+    {
+      "a": "black-cod", "b": "chinook-salmon",
+      "verdict": "The two richest fish in the case, and both are excellent smoked. Chinook costs $11 a pound more and delivers the flavor everyone recognizes. Black cod is silkier, more buttery, and arguably the better fish — it is simply less famous.",
+      "when_a": "You want the most forgiving, most luxurious texture available, and you do not need it to taste like salmon.",
+      "when_b": "You want salmon. Nothing substitutes for it when that is what people are expecting."
+    },
+    {
+      "a": "petrale-sole", "b": "pacific-rockfish",
+      "verdict": "Both mild, lean and white, but sole is far more delicate — thin fillets that cook in two or three minutes a side and fall apart if handled much. Rockfish is sturdier and more versatile. Sole is the more refined fish; rockfish is the more useful one.",
+      "when_a": "Flour, hot butter, lemon, two minutes a side. Sole rewards restraint and punishes everything else.",
+      "when_b": "Anything involving a grill, a fryer, a taco, or a sauce that needs to simmer."
+    },
+    {
+      "a": "dungeness-crab", "b": "raw-shrimp",
+      "verdict": "Crab is the Oregon fishery and the seasonal event; large raw shrimp are sourced and available year-round. Crab arrives cooked and is mostly a cleaning-and-picking job. Shrimp is fast, consistent, and endlessly adaptable.",
+      "when_a": "It is crab season, and the meal is meant to be the crab — cold, cracked, with bread and butter.",
+      "when_b": "Any night of the year. Shrimp does not have a season and does not need one."
+    },
+    {
+      "a": "scallops", "b": "raw-shrimp",
+      "verdict": "Both sweet, both quick, both sourced rather than Oregon-landed. Scallops are richer and denser and Brandywine sells them mainly smoked at $20. Shrimp is more versatile and cheaper per serving.",
+      "when_a": "You want the richer, more luxurious bite — or you want the smoked version on a board.",
+      "when_b": "You want volume, versatility, and something the whole table will eat without comment."
+    },
+    {
+      "a": "pacific-halibut", "b": "pacific-cod",
+      "verdict": "Both lean and white, but halibut is dense, firm and expensive while cod is tender, large-flaked and cheap. Battered and fried, cod is genuinely the better fish — the flake is the point. Served plainly, halibut is in a different class.",
+      "when_a": "The fish is the dish and it is being served simply, where density and firmness show.",
+      "when_b": "It is going into batter. Frying $38.95-a-pound halibut is a way of spending money without improving dinner."
+    },
+    {
+      "a": "albacore-tuna", "b": "chinook-salmon",
+      "verdict": "The two Oregon troll fisheries, both handled the same way on the boat. Salmon is richer, more colorful and more expensive; albacore is milder, meatier, and the fish Brandywine cans. Albacore wants to be seared rare; salmon wants to be cooked medium.",
+      "when_a": "You want a seared rare center and a firm meaty texture, or you want the canned and smoked versions that keep in a pantry.",
+      "when_b": "You want the flake, the color, and the flavor most people mean when they say fish for dinner."
+    },
+    {
+      "a": "lingcod", "b": "mahi-mahi",
+      "verdict": "Two firm grilling fish at almost the same price — $18.95 against $9.95. Lingcod is the Oregon fishery, landed by the boat; mahi is sourced. They cook almost identically and either makes an excellent taco.",
+      "when_a": "You want it local, and you want the fish that came off an Oregon nearshore reef.",
+      "when_b": "You want firm grilling fish for half the money and the sourcing does not matter to you."
+    },
+    {
+      "a": "coho-salmon", "b": "black-cod",
+      "verdict": "Identical price — $18.95 a pound — and completely different fish. Coho is lean for a salmon and cooks fast with little margin. Black cod is the fattiest thing in the case and nearly impossible to ruin. Same money, opposite difficulty.",
+      "when_a": "You want salmon, and you are paying attention to the pan.",
+      "when_b": "You want the easiest possible cook, or you are feeding someone who claims not to like fish."
+    },
+    {
+      "a": "coho-salmon", "b": "lingcod",
+      "verdict": "Both $18.95 a pound, both Oregon hook-and-line fisheries, and about as different as two fish get. Coho is oily, orange and salmon-flavored; lingcod is lean, white and mild. This is the clearest either/or on the price list.",
+      "when_a": "Salmon night — grilled, roasted, or with a glaze.",
+      "when_b": "Fish tacos, fish and chips, or anything where a mild white fish disappears into the dish."
+    },
+    {
+      "a": "steelhead", "b": "black-cod",
+      "verdict": "Both are $40 smoked and both are excellent that way. Steelhead is milder and sweeter with a fine flake; smoked black cod is richer and silkier because of the oil. Two different arguments for the same money.",
+      "when_a": "A board with other things on it, where you want the smoked fish to be approachable.",
+      "when_b": "The smoked fish is the centerpiece and you want the most luxurious texture available."
+    },
+    {
+      "a": "pacific-rockfish", "b": "mahi-mahi",
+      "verdict": "The two cheapest fillets on the list — $13.95 and $9.95. Rockfish is the Oregon fish, more delicate, and cooks faster. Mahi is firmer and better on a grill. Both end up as tacos more often than not.",
+      "when_a": "You want it landed by the Oregon boat, and it is going in a pan or a fryer.",
+      "when_b": "It is going on a grill, or the price is doing the deciding."
+    },
+    {
+      "a": "chinook-salmon", "b": "pacific-halibut",
+      "verdict": "The two most expensive fish Brandywine sells — $29.95 and $38.95 a pound. Salmon is fatty, forgiving and unmistakable; halibut is lean, firm and unforgiving. If exactly one of them is going to be cooked by someone distracted, make it the salmon.",
+      "when_a": "A crowd, a grill, a smoker, or any situation where the timing might slip.",
+      "when_b": "A quiet kitchen, a thermometer, and full attention. It is the better fish and the harder one."
+    },
+    {
+      "a": "albacore-tuna", "b": "swordfish",
+      "verdict": "Both firm, both steak-like, both grill well. Albacore is the Oregon troll fishery and is best left rare; swordfish is sourced, denser still, and cooks further without collapsing. Federal advice also treats them very differently on mercury.",
+      "when_a": "You want the Oregon fish, a rare center, and the option of the canned and smoked versions.",
+      "when_b": "You want the densest, meatiest fish available and you are cooking it through on a grill."
+    }
+  ]
+}
