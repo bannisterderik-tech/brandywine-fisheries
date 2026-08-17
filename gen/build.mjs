@@ -184,7 +184,7 @@ img{max-width:100%;display:block;height:auto}
 :focus-visible{outline:2.5px solid var(--gold);outline-offset:3px;border-radius:3px}
 
 h1,h2,h3,h4{font-family:var(--serif);color:var(--ink);font-weight:600;line-height:1.12;letter-spacing:-.02em}
-h1{font-size:clamp(2.35rem,6vw,4.4rem);letter-spacing:-.033em}
+h1{font-size:clamp(1.95rem,5.6vw,4.4rem);letter-spacing:-.033em}
 h2{font-size:clamp(1.55rem,3.1vw,2.35rem);letter-spacing:-.024em}
 h3{font-size:1.1rem;letter-spacing:-.012em}
 p{max-width:68ch;margin-bottom:1.05em}
@@ -390,7 +390,7 @@ footer .base{border-top:1px solid rgba(255,255,255,.11);padding-top:1.5rem;displ
 footer .base b{color:#fff}
 .demobar{position:fixed;bottom:0;left:0;right:0;background:rgba(6,16,25,.96);backdrop-filter:blur(12px);
  color:#fff;z-index:99;padding:.72rem 1.1rem;font-size:.83rem;text-align:center;border-top:2px solid var(--gold)}
-body:has(.demobar){padding-bottom:52px}
+body:has(.demobar){padding-bottom:76px}
 
 @media(max-width:680px){
  .top .wrap{min-height:64px;gap:10px}
@@ -628,7 +628,7 @@ for (const s of species) {
     title: fitTitle(`${s.name} — Price, Season & How to Cook`, s.name),
     desc: `${s.name}${s.aka && !s.name.toLowerCase().includes(s.aka.toLowerCase()) ? ` (${s.aka})` : ''} at Brandywine Fisheries: ${s.price}. ${s.flavor}. ${s.cook_temp}. ${s.oregon_fishery ? `${s.gear}, Charleston OR.` : 'Sourced item.'}`,
     eyebrow: s.oregon_fishery ? 'Oregon fishery' : 'Sourced item',
-    sub: `${s.price} · ${head(s.fat)} · cook to ${head(s.cook_temp)} · ${head(s.portion)}`,
+    sub: `${s.price} · ${head(s.fat).toLowerCase().includes('fat') ? head(s.fat) : head(s.fat) + ' fat'} · cook to ${head(s.cook_temp)} · ${head(s.portion)}`,
     h1: esc(s.name),
     crumbs: crumb([C_HOME, { name: 'Fish', url: u('/fish/') }, { name: s.name }]),
     answer: `<b>${esc(s.name)}</b>${s.aka && !s.name.toLowerCase().includes(s.aka.toLowerCase()) ? ` (${esc(s.aka)})` : ''} is <b>${esc(s.price)}</b> at Brandywine. ${esc(s.flavor)} — ${esc(lc(head(s.fat)))}, ${esc(lc(head(s.texture)))}. Cook it to <b>${esc(s.cook_temp)}</b>. ${s.oregon_fishery ? `It's an Oregon fishery — ${esc(lc(s.gear))}, landed at Charleston.` : `<b>Note:</b> ${esc(s.sourcing)}`}`,
