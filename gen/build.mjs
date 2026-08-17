@@ -30,6 +30,7 @@ const GU = J('guides.json');
 const CM = J('comparisons.json');
 const SE = J('seasons.json');
 const FQ = J('faq.json');
+const CR = existsSync(join(ROOT, 'data', 'credits.json')) ? J('credits.json') : { images: {} };
 
 const species = SP.species;
 const methods = ME.methods;
@@ -136,9 +137,9 @@ const ALT = {
   harbor: 'A small working commercial fishing harbor on the southern Oregon coast at first light, fog low over moored boats and stacked crab pots',
   salmon: 'A whole side of wild Pacific salmon resting on crushed flake ice',
   halibut: 'Thick snow-white Pacific halibut steaks arranged on crushed ice',
-  crab: 'Whole cooked Dungeness crabs piled on crushed ice',
+  crab: 'Live Dungeness crab packed close together, mottled purple-brown shells and pale serrated claws',
   oysters: 'Freshly shucked Pacific oysters on the half shell over crushed ice',
-  smoked: 'Sliced alder-smoked salmon fanned across a weathered wooden board with cracked pepper',
+  smoked: 'Sides of salmon laid out across steel racks inside a smoking chamber',
   skillet: 'A fish fillet searing skin-side down in a hot cast iron skillet with foaming butter',
   market: 'An empty outdoor farmers market in a downtown park block early in the morning, canopy frames and folding tables under bare trees',
   coast: 'The Oregon coastline in heavy fog, dark basalt sea stacks and wind-bent shore pines above grey surf',
@@ -388,6 +389,9 @@ footer p{color:rgba(255,255,255,.58)}
 footer .base{border-top:1px solid rgba(255,255,255,.11);padding-top:1.5rem;display:flex;
  justify-content:space-between;gap:1.2rem;flex-wrap:wrap;font-size:.82rem}
 footer .base b{color:#fff}
+.imgcredit{position:absolute;right:var(--gut);bottom:9px;margin:0;z-index:3;
+ font:500 .64rem/1.4 var(--sans);color:rgba(255,255,255,.5);letter-spacing:.03em;
+ max-width:46ch;text-align:right;text-shadow:0 1px 6px rgba(0,0,0,.65)}
 .demobar{position:fixed;bottom:0;left:0;right:0;background:rgba(6,16,25,.96);backdrop-filter:blur(12px);
  color:#fff;z-index:99;padding:.72rem 1.1rem;font-size:.83rem;text-align:center;border-top:2px solid var(--gold)}
 body:has(.demobar){padding-bottom:76px}
@@ -449,7 +453,7 @@ const FOOTER = `<footer><div class="wrap">
 <div><h4>Fish</h4>${species.slice(0, 7).map(s => `<a href="${u(`/fish/${s.slug}/`)}">${esc(s.name)}</a>`).join('')}<a href="${u('/fish/')}">All species →</a></div>
 <div><h4>Shop</h4>${PR.categories.map(c => `<a href="${u(`/shop/${c.slug}/`)}">${esc(c.name)}</a>`).join('')}</div>
 <div><h4>Where to Buy</h4>${retail.map(l => `<a href="${u(`/where-to-buy/${l.slug}/`)}">${esc(locLabel(l))}${l.type === 'store' ? ' (store)' : ''}</a>`).join('')}</div>
-<div><h4>Learn</h4><a href="${u('/guides/')}">Guides</a><a href="${u('/season/')}">What's in season</a><a href="${u('/compare/')}">Compare fish</a><a href="${u('/faq/')}">FAQ</a><a href="${u('/about/')}">About</a><a href="${u('/contact/')}">Contact</a></div>
+<div><h4>Learn</h4><a href="${u('/guides/')}">Guides</a><a href="${u('/season/')}">What's in season</a><a href="${u('/compare/')}">Compare fish</a><a href="${u('/faq/')}">FAQ</a><a href="${u('/about/')}">About</a><a href="${u('/contact/')}">Contact</a><a href="${u('/credits/')}">Image credits</a></div>
 <div><h4>Store</h4><p style="color:rgba(255,255,255,.62);margin:0 0 6px">${esc(ST.street)}<br>${esc(ST.city)}, ${esc(ST.state)} ${esc(ST.zip)}</p><a href="tel:${TEL}">${esc(PHONE)}</a><p style="color:rgba(255,255,255,.62);margin:6px 0 0;font-size:.85rem">${esc(ST.hours)}</p></div>
 </div>
 <div class="base"><div><b>${esc(NAME)}</b> — ${esc(B.tagline)}</div><div>Home port: Charleston, Oregon</div></div>
@@ -457,6 +461,17 @@ const FOOTER = `<footer><div class="wrap">
 </div></footer>`;
 
 const DEMOBAR = DEMO ? `<div class="demobar">Demo build for ${esc(NAME)} — not live, not indexed. <a href="${u('/about/')}" style="color:var(--gold)">About this build</a></div>` : '';
+
+/* Credit line for a given image slot. CC-BY and CC-BY-SA are free to use
+ * commercially but attribution is a licence CONDITION, not a courtesy — a page
+ * that shows one of these photos without a credit is not licensed to show it.
+ * Public-domain slots need no credit and get none. */
+const creditOf = k => (CR.images || {})[IMG[k]] || null;
+const creditLine = k => {
+  const c = creditOf(k);
+  if (!c || !c.author) return '';
+  return `${c.title ? c.title + ' — ' : ''}${c.author}${c.license && c.license !== 'PD' ? ', ' + c.license : ''}`;
+};
 
 function page({ path, title, desc, sub, h1, eyebrow, answer, body, crumbs, ld = [], hero = 'harbor', tall = false, ogImg }) {
   /* The hero line and the answer block sit within one screen of each other. If
@@ -498,6 +513,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 ${HEADER}
 ${crumbs ? `<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb">${crumbs}</nav></div>` : ''}
 <div class="hero${tall ? ' tall' : ''}"><img class="bg" src="${heroImg}" alt="${esc(heroAlt)}" loading="${tall ? 'eager' : 'lazy'}" width="1536" height="1024">
+${creditLine(hero) ? `<p class="imgcredit">${esc(creditLine(hero))}</p>` : ''}
 <div class="wrap">${eyebrow ? `<div class="eyebrow">${esc(eyebrow)}</div>` : ''}<h1>${h1}</h1>
 ${heroSub ? `<p class="sub">${esc(heroSub)}</p>` : ''}
 <div class="row"><a class="btn" href="tel:${TEL}">Call ${esc(PHONE)}</a><a class="btn ghost" href="${u('/where-to-buy/')}">Where to find us</a></div>
@@ -526,7 +542,7 @@ ${FOOTER}${DEMOBAR}<script>
 }
 
 /* clean previous build */
-for (const d of ['fish', 'shop', 'where-to-buy', 'guides', 'season', 'compare', 'about', 'contact', 'faq'])
+for (const d of ['fish', 'shop', 'where-to-buy', 'guides', 'season', 'compare', 'about', 'contact', 'faq', 'credits'])
   rmSync(join(OUT, d), { recursive: true, force: true });
 
 const C_HOME = { name: 'Home', url: u('/') };
@@ -1350,6 +1366,39 @@ page({
 <p style="margin-top:26px">More detail in the <a href="${u('/guides/')}">guides</a>, or call ${esc(PHONE)}.</p></div></section>`,
   ld: [breadcrumbLD([{ name: 'Home', url: '/' }, { name: 'FAQ' }]), faqLD(FQ.general)],
 });
+
+/* ===================== IMAGE CREDITS ===================== */
+/* Attribution is a licence condition for the CC-BY and CC-BY-SA photographs
+ * used here, so this page is load-bearing, not decorative. It is generated
+ * from data/credits.json — add an image there and it appears here. */
+{
+  const rows = Object.entries(CR.images || {});
+  const needAttr = rows.filter(([, c]) => c.author);
+  page({
+    path: '/credits/', hero: 'ice',
+    title: fitTitle('Image Credits & Licences', 'Image Credits'),
+    desc: `Photography credits and licence terms for every image used on this site, with links to each original and its licence.`,
+    eyebrow: 'Colophon', h1: 'Image credits',
+    sub: `Every photograph on this site, its photographer, its licence, and where it came from.`,
+    crumbs: crumb([C_HOME, { name: 'Image credits' }]),
+    answer: `This site uses <b>${rows.length} photographs</b>${needAttr.length ? `, of which <b>${needAttr.length}</b> are licensed under terms that require attribution` : ''}. Every one is credited below with its photographer, licence and a link to the original. <b>None of these are photographs of Brandywine Fisheries</b> — not the boat, the crew, the store or the catch.`,
+    body: `
+<section><div class="wrap">
+<div class="note"><b>Not photographs of this business.</b> The imagery here is regional Oregon scenery and food photography, used to set place and subject. It does not depict the Brandywine boat, its crew, its premises or its catch. Real photographs from Brandywine would replace all of it.</div>
+${rows.length ? `<div class="tscroll"><table>
+<tr><th>Image</th><th>Used for</th><th>Photographer</th><th>Licence</th></tr>
+${rows.map(([file, c]) => `<tr>
+<td>${esc(c.title || file)}</td>
+<td>${esc(c.used_for || '—')}</td>
+<td>${esc(c.author || 'Public domain — no attribution required')}</td>
+<td>${c.source ? `<a href="${esc(c.source)}" rel="noopener nofollow">${esc(c.license || 'see source')}</a>` : esc(c.license || '—')}</td>
+</tr>`).join('')}
+</table></div>` : '<p class="muted">No image credits recorded.</p>'}
+<p class="muted" style="font-size:.88rem">Licence abbreviations: <b>PD</b> public domain · <b>CC0</b> no rights reserved · <b>CC BY</b> attribution required · <b>CC BY-SA</b> attribution and share-alike required. Follow the licence link for the full terms.</p>
+</div></section>`,
+    ld: [breadcrumbLD([{ name: 'Home', url: '/' }, { name: 'Image credits' }])],
+  });
+}
 
 /* ===================== SITEMAP / ROBOTS / LLMS ===================== */
 const today = new Date().toISOString().slice(0, 10);

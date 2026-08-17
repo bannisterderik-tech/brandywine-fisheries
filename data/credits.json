@@ -1,0 +1,37 @@
+{
+  "_note": "Attribution for every image on the site. For the CC BY-SA photographs this is a licence CONDITION, not a courtesy — the credit must appear wherever the image does, which is why the generator renders a credit line on the hero and builds /credits/ from this file. Both CC BY-SA images below were resized, cropped to 3:2 and colour-graded; under share-alike those modified versions are themselves CC BY-SA 2.0, which is stated here and on the credits page.",
+
+  "images": {
+    "fish-crab.jpg": {
+      "title": "Dungeness crabs",
+      "author": "Oregon Department of Fish & Wildlife",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Dungeness_crabs_reesman_odfw_(15432100129).jpg",
+      "used_for": "Dungeness crab, shellfish and steaming pages",
+      "modified": "Resized, cropped to 3:2, colour-graded. The modified image is likewise CC BY-SA 2.0.",
+      "why": "Live Oregon Dungeness photographed by the state agency that manages the fishery — the most authentic crab image available under a free licence."
+    },
+    "shop-smoked.jpg": {
+      "title": "Sides of salmon on racks in a smoking chamber",
+      "author": "Juerg Vollmer",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Balik_Lachsr%C3%A4ucherei,_Lachsh%C3%A4lften_in_der_R%C3%A4ucherkammer_01.jpg",
+      "used_for": "Smoked fish shop category and the smoking method pages",
+      "modified": "Resized, cropped to 3:2, colour-graded. The modified image is likewise CC BY-SA 2.0.",
+      "why": "A working smokehouse rather than a styled plate — it shows the process the smoked line actually comes from."
+    },
+
+    "hero-harbor.jpg": { "title": "Working harbour at first light", "author": null, "license": "Generated", "used_for": "Home, About, Charleston and season pages", "why": "No free-licensed photograph of a Pacific Northwest commercial harbour met the bar. Candidates were amateur snapshots, a painting, or boats from the wrong coast carrying legible names and registration numbers." },
+    "fish-salmon.jpg": { "title": "Salmon on flake ice", "author": null, "license": "Generated", "used_for": "Salmon and steelhead pages", "why": "The free-licensed alternatives were plated restaurant dinners and fish trimmings in a metal bowl on concrete." },
+    "fish-halibut.jpg": { "title": "Halibut steaks on ice", "author": null, "license": "Generated", "used_for": "Whitefish, tuna and comparison pages", "why": "Free-licensed halibut imagery is almost entirely 19th-century scientific engravings." },
+    "fish-oysters.jpg": { "title": "Oysters on the half shell", "author": null, "license": "Generated", "used_for": "Store pages, raw method, contact", "why": "Free-licensed oyster photography is mostly white-background specimen cutouts." },
+    "method-pan.jpg": { "title": "Fillet searing in cast iron", "author": null, "license": "Generated", "used_for": "Cooking method pages", "why": "No usable free-licensed equivalent found." },
+    "loc-market.jpg": { "title": "Market stalls before opening", "author": null, "license": "Generated", "used_for": "Farmers market location pages", "why": "Every free-licensed fish-market photograph showed a DIFFERENT named business's storefront and signage, or identifiable customers. Using those on this site would misrepresent a competitor's premises as Brandywine's." },
+    "scene-coast.jpg": { "title": "Oregon coastline in fog", "author": null, "license": "Generated", "used_for": "Guides and spring season pages", "why": "Free-licensed Oregon coast photography exists and is decent, but did not beat this frame once graded to the palette." },
+    "tex-ice.jpg": { "title": "Crushed ice macro", "author": null, "license": "Generated", "used_for": "Guides hub, FAQ, credits", "why": "Free-licensed 'ice' results were cocktails, ice-cube trays and a dog." },
+    "scene-bend.jpg": { "title": "Central Oregon high desert", "author": null, "license": "Generated", "used_for": "Bend pages, autumn season", "why": "Free-licensed candidates were Washington Cascades and the Seattle/Bellevue skyline — the wrong region entirely." },
+    "scene-valley.jpg": { "title": "Willamette Valley farmland in winter rain", "author": null, "license": "Generated", "used_for": "Season hub and winter months", "why": "No free-licensed frame matched the season and mood needed." }
+  }
+}
