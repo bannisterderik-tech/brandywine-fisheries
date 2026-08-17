@@ -347,11 +347,23 @@ const FOOTER = `<footer><div class="wrap">
 const DEMOBAR = DEMO ? `<div class="demobar">Demo build for ${esc(NAME)} — not live, not indexed. <a href="${u('/about/')}" style="color:var(--gold)">About this build</a></div>` : '';
 
 function page({ path, title, desc, sub, h1, eyebrow, answer, body, crumbs, ld = [], hero = 'harbor', tall = false, ogImg }) {
-  desc = clamp(desc);
   /* The hero line and the answer block sit within one screen of each other. If
    * both render the meta description the page opens by saying the same thing
-   * twice. `sub` lets a template give the hero its own short line. */
-  const heroSub = sub || desc;
+   * twice. `sub` lets a template give the hero its own short line.
+   *
+   * Falling back to the clamped description puts a visible "…" in 60px display
+   * type, which reads as broken. Cut the fallback at the last complete sentence
+   * instead — a shorter true sentence beats a truncated longer one. */
+  const rawDesc = desc;
+  desc = clamp(desc);
+  const sentenceCut = t => {
+    t = String(t).replace(/\s+/g, ' ').trim();
+    if (t.length <= 150) return t;
+    const c = t.slice(0, 150);
+    const i = Math.max(c.lastIndexOf('. '), c.lastIndexOf('! '), c.lastIndexOf('? '));
+    return i > 55 ? c.slice(0, i + 1) : clamp(t);
+  };
+  const heroSub = sub || sentenceCut(rawDesc);
   const canonical = abs(path);
   const heroImg = img(hero), heroAlt = ALT[hero];
   const og = ogImg || abs('/assets/img/' + IMG[hero]);
@@ -403,6 +415,7 @@ page({
   title: 'Brandywine Fisheries | Oregon Coast Seafood, Never Frozen',
   desc: `Never-frozen Oregon seafood from a Charleston boat. Retail store in Springfield open daily 10–6, plus farmers markets in Eugene, Corvallis, Bend and Portland. Call ${PHONE}.`,
   eyebrow: B.tagline,
+  sub: `A hand-built boat out of Charleston harbor, an ice hold instead of a freezer, and a store in Springfield open seven days a week.`,
   h1: 'Iced on the boat.<br>Never frozen.',
   answer: `<b>${esc(NAME)}</b> sells never-frozen Oregon seafood from a hand-built boat working out of Charleston harbor. Their retail store at <b>${esc(ST.street)}, ${esc(ST.city)}, OR</b> is open <b>daily 10am–6pm</b> — call <b>${esc(PHONE)}</b>. They also run five farmers market days a week in Eugene (Saturday and Tuesday), Corvallis, Bend and Portland. The case runs from black mussels at $6.95 to halibut at $38.95 a pound, plus a thirteen-piece smokehouse line and their own canned albacore.`,
   body: `
